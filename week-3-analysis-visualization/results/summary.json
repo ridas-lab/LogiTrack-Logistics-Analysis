@@ -1,0 +1,158 @@
+{
+  "source_orders": 99441,
+  "delivered_status": 96478,
+  "cycle_n": 96470,
+  "otd_n": 96470,
+  "on_time_n": 89936,
+  "on_time_pct": 93.22690992018245,
+  "late_n": 6534,
+  "descriptive": {
+    "cycle_days": {
+      "n": 96470,
+      "mean": 12.558217098051976,
+      "median": 10.217476851851853,
+      "std": 9.54615637792742,
+      "minimum": 0.5334143518518518,
+      "q1": 6.766203703703704,
+      "q3": 15.720182291666667,
+      "p90": 23.096377314814816,
+      "maximum": 209.6286111111111,
+      "skew": 3.8333770734241215
+    },
+    "freight_brl": {
+      "n": 96470,
+      "mean": 22.834412770809575,
+      "median": 17.19,
+      "std": 21.738963338540778,
+      "minimum": 0.0,
+      "q1": 13.85,
+      "q3": 24.05,
+      "p90": 39.47,
+      "maximum": 1794.9600000000005,
+      "skew": 12.143451046646904
+    },
+    "order_value_brl": {
+      "n": 96470,
+      "mean": 137.04000134756922,
+      "median": 86.5,
+      "std": 209.05260846299177,
+      "minimum": 0.85,
+      "q1": 45.9,
+      "q3": 149.9,
+      "p90": 269.0,
+      "maximum": 13440.0,
+      "skew": 9.885399776798433
+    },
+    "item_count": {
+      "n": 96470,
+      "mean": 1.1422100134756918,
+      "median": 1.0,
+      "std": 0.5388244844026,
+      "minimum": 1.0,
+      "q1": 1.0,
+      "q3": 1.0,
+      "p90": 1.0,
+      "maximum": 21.0,
+      "skew": 7.557602141464502
+    },
+    "weight_kg": {
+      "n": 96448,
+      "mean": 2.387016796615793,
+      "median": 0.75,
+      "std": 4.7702210970782275,
+      "minimum": 0.002,
+      "q1": 0.3,
+      "q3": 2.05,
+      "p90": 6.55,
+      "maximum": 184.4,
+      "skew": 6.57247568805943
+    },
+    "volume_litres": {
+      "n": 96454,
+      "mean": 17.33193679888859,
+      "median": 7.254,
+      "std": 30.14387059332906,
+      "minimum": 0.168,
+      "q1": 2.964,
+      "q3": 19.866,
+      "p90": 42.978,
+      "maximum": 1476.0,
+      "skew": 7.358200042291955
+    }
+  },
+  "item_count_mode": 1.0,
+  "over30_days": 4550,
+  "over60_days": 306,
+  "stage_n": 95082,
+  "stage_means": {
+    "approval_wait_days": 0.4021039669608766,
+    "dispatch_days": 2.8517482825009917,
+    "transit_days": 9.364111270646896,
+    "cycle_days": 12.617963520108765
+  },
+  "transit_share_pct": 74.21254036535827,
+  "corr_n": 96448,
+  "relation_n": 96448,
+  "zero_freight_n": 336,
+  "monthly_orders": 86288,
+  "monthly_completed": 83696,
+  "mature_window": [
+    "2017-01-01",
+    "2018-06-30"
+  ],
+  "top2_late_share_pct": 50.7346189164371,
+  "synthetic": {
+    "n": 2000,
+    "seed": 20261022,
+    "description": "Entirely simulated; not Olist observations",
+    "cost": {
+      "n": 2000,
+      "mean": 39.52776818851105,
+      "median": 39.160636053075514,
+      "std": 12.714732028462173,
+      "minimum": 14.83410709695142,
+      "q1": 29.423695765257307,
+      "q3": 49.68689676258405,
+      "p90": 55.68813454530834,
+      "maximum": 88.64896308851851,
+      "skew": 0.1340802808066363
+    },
+    "delivery": {
+      "n": 2000,
+      "mean": 3.67304694599909,
+      "median": 3.6040348854925055,
+      "std": 1.497407147170558,
+      "minimum": 1.173693492297569,
+      "q1": 2.5171550259755704,
+      "q3": 4.609010946684785,
+      "p90": 5.561352660278416,
+      "maximum": 8.95875261111843,
+      "skew": 0.582800745345476
+    },
+    "on_time_pct": 84.65,
+    "item_units": 5947,
+    "distance_cost_correlation": 0.9179028697018262,
+    "mean_components": {
+      "base_cost_brl": 12.0,
+      "distance_cost_brl": 21.856242932990444,
+      "weight_cost_brl": 3.305525255520599,
+      "delay_cost_brl": 2.366
+    },
+    "sensitivity_mean_cost_brl": {
+      "baseline": 39.52776818851105,
+      "distance_minus10pct": 37.342143895212004,
+      "delay_minus1day": 38.12776818851104
+    },
+    "mean_savings_brl": {
+      "distance_minus10pct": 2.1856242932990426,
+      "delay_minus1day": 1.4000000000000057
+    },
+    "assumed_formula": "12 + 0.035 * distance_km + 1.2 * weight_kg + 4 * extra_delay_days"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5"
+  },
+  "input_sha256": "16455dcb8c0697f5c168ce8aba1e1a02a903b63012eae589f9409e3dd30ef4c0"
+}

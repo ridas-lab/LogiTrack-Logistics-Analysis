@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01_validation_comparison.png",
+    "description": "Candidate model MAE on the same mature validation cohort; the lowest MAE determines selection.",
+    "libraries": [
+      "matplotlib",
+      "seaborn"
+    ]
+  },
+  {
+    "file": "02_test_diagnostics.png",
+    "description": "Full-range test actual-versus-predicted density and residual histogram; all valid test outcomes retained.",
+    "libraries": [
+      "matplotlib",
+      "seaborn"
+    ]
+  },
+  {
+    "file": "03_cohort_errors.png",
+    "description": "Test MAE by approval month and eight largest state cohorts, with explicit sample counts.",
+    "libraries": [
+      "matplotlib",
+      "seaborn"
+    ]
+  },
+  {
+    "file": "04_validation_importance.png",
+    "description": "Grouped permutation importance measured as validation MAE increase, with variability across five shuffles.",
+    "libraries": [
+      "matplotlib",
+      "seaborn"
+    ]
+  },
+  {
+    "file": "05_review_allocation.png",
+    "description": "Model priority versus FIFO at equal daily quotas; measured capture of known late outcomes, not prevented delays.",
+    "libraries": [
+      "matplotlib",
+      "seaborn"
+    ]
+  },
+  {
+    "file": "06_synthetic_experiment.png",
+    "description": "Separate fixed-parameter Ridge experiment on explicitly simulated shipments; chronological validation and test scores.",
+    "libraries": [
+      "matplotlib",
+      "seaborn"
+    ]
+  }
+]

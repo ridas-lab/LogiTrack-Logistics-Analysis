@@ -1,0 +1,12 @@
+{
+  "source_repository": "https://github.com/olist/work-at-olist-data",
+  "source_commit": "d9e49802f3e92d09ee94ab9ccc5e457f207a8959",
+  "original_retrieved_date": "2026-10-22",
+  "analysis_finalized_date": "2026-10-23",
+  "prepared_data_rows": 99441,
+  "uncompressed_audit_sha256": "fba0660daeaf802461038112056725941b6846c826955d428b530b1c007ad629",
+  "compressed_audit_sha256": "16455dcb8c0697f5c168ce8aba1e1a02a903b63012eae589f9409e3dd30ef4c0",
+  "lineage": "Four original tables -> Week 2 preparation/preprocess.py -> orders_audit.csv -> Week 3 analyze.py",
+  "simulation": "Separate 2000-row generated shipment dataset; seed20261022; never pooled with historical data",
+  "source_license": "SOURCE_LICENSE.txt copied unchanged from the pinned official repository"
+}

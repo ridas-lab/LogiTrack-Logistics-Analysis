@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "source hashes match manifest",
+    "master grain and row conservation",
+    "feature and label row alignment",
+    "all feature values finite",
+    "one-hot category validity",
+    "independently recomputed training medians",
+    "independently reconstructed transformations",
+    "missing indicators match raw-derived missingness",
+    "independently recomputed on-time numerator",
+    "cohort exclusion reconciliation"
+  ]
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+preparation/data/
+preparation/results/
+rebuilt_results/

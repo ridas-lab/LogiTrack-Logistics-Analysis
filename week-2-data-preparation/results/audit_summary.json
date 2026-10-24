@@ -1,0 +1,403 @@
+{
+  "source": {
+    "orders": {
+      "rows": 99441,
+      "columns": 8,
+      "sha256": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf"
+    },
+    "order_items": {
+      "rows": 112650,
+      "columns": 7,
+      "sha256": "4f6abdbbc94036d0df4a76fa0520c072e31a40119d70f7f370fba1e2285d2bcb"
+    },
+    "customers": {
+      "rows": 99441,
+      "columns": 5,
+      "sha256": "c26c17f59f3027a6a0dbeb8f1fa373c38f3323ecc84f225a8f4820e5bb288df8"
+    },
+    "products": {
+      "rows": 32951,
+      "columns": 9,
+      "sha256": "3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc"
+    }
+  },
+  "missing_before": {
+    "orders": {
+      "order_approved_at": 160,
+      "order_delivered_carrier_date": 1783,
+      "order_delivered_customer_date": 2965
+    },
+    "order_items": {},
+    "customers": {},
+    "products": {
+      "product_category_name": 610,
+      "product_name_lenght": 610,
+      "product_description_lenght": 610,
+      "product_photos_qty": 610,
+      "product_weight_g": 2,
+      "product_length_cm": 2,
+      "product_height_cm": 2,
+      "product_width_cm": 2
+    }
+  },
+  "exact_duplicates_removed": {
+    "orders": 0,
+    "order_items": 0,
+    "customers": 0,
+    "products": 0
+  },
+  "parse_failures": {
+    "order_purchase_timestamp": 0,
+    "order_approved_at": 0,
+    "order_delivered_carrier_date": 0,
+    "order_delivered_customer_date": 0,
+    "order_estimated_delivery_date": 0,
+    "price": 0,
+    "freight_value": 0,
+    "product_weight_g": 0,
+    "product_length_cm": 0,
+    "product_height_cm": 0,
+    "product_width_cm": 0
+  },
+  "invalid_numeric": {
+    "price": 0,
+    "freight_value": 0,
+    "product_weight_g": 4,
+    "product_length_cm": 0,
+    "product_height_cm": 0,
+    "product_width_cm": 0
+  },
+  "category_changes": {
+    "order_status": 0,
+    "customer_state": 0
+  },
+  "item_rows_unmatched_product": 0,
+  "orders_without_items": 775,
+  "orders_unmatched_customer": 0,
+  "invalid_intervals": {
+    "approval_wait_days": 0,
+    "dispatch_days": 1359,
+    "transit_days": 23,
+    "cycle_days": 0,
+    "remaining_delivery_days": 61,
+    "promise_days": 10
+  },
+  "row_reconciliation": {
+    "raw_orders": 99441,
+    "master_orders": 99441,
+    "feature_rows": 86484,
+    "feature_columns": 54,
+    "excluded_from_features": 12957
+  },
+  "split_counts": {
+    "train": {
+      "all_approvals": 45295,
+      "feature_rows": 45295,
+      "label_eligible": 41173,
+      "feature_rows_without_eligible_label": 4122
+    },
+    "validation": {
+      "all_approvals": 21181,
+      "feature_rows": 21181,
+      "label_eligible": 16837,
+      "feature_rows_without_eligible_label": 4344
+    },
+    "test": {
+      "all_approvals": 20008,
+      "feature_rows": 20008,
+      "label_eligible": 19654,
+      "feature_rows_without_eligible_label": 354
+    }
+  },
+  "feature_exclusions": {
+    "outside_windows": 12797,
+    "missing_approval": 160,
+    "negative_approval_wait_in_windows": 0
+  },
+  "status_counts": {
+    "delivered": 96478,
+    "shipped": 1107,
+    "canceled": 625,
+    "unavailable": 609,
+    "invoiced": 314,
+    "processing": 301,
+    "created": 5,
+    "approved": 2
+  },
+  "date_ranges": {
+    "order_purchase_timestamp": {
+      "min": "2016-09-04 21:15:19",
+      "max": "2018-10-17 17:30:18"
+    },
+    "order_approved_at": {
+      "min": "2016-09-15 12:16:38",
+      "max": "2018-09-03 17:40:06"
+    },
+    "order_delivered_carrier_date": {
+      "min": "2016-10-08 10:34:01",
+      "max": "2018-09-11 19:48:28"
+    },
+    "order_delivered_customer_date": {
+      "min": "2016-10-11 13:46:32",
+      "max": "2018-10-17 13:22:46"
+    },
+    "order_estimated_delivery_date": {
+      "min": "2016-09-30 00:00:00",
+      "max": "2018-11-12 00:00:00"
+    }
+  },
+  "derived_missing_all_orders": {
+    "order_value_brl": 775,
+    "freight_brl": 775,
+    "item_count": 775,
+    "seller_count": 775,
+    "total_weight_g": 797,
+    "total_volume_cm3": 791,
+    "promise_days": 170,
+    "approval_wait_days": 160
+  },
+  "service_snapshot": {
+    "delivered_status": 96478,
+    "eligible_otd": 96470,
+    "on_time_orders": 89936,
+    "otd_percent": 93.22690992018245,
+    "eligible_cycle": 96470,
+    "cycle_median_days": 10.217476851851853,
+    "cycle_p90_days": 23.09637731481482,
+    "complete_delivered_milestones": 96455
+  },
+  "numeric_preprocessing": [
+    {
+      "feature": "order_value_brl",
+      "split": "train",
+      "rows": 45295,
+      "imputed": 475,
+      "iqr_flagged": 3660,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "order_value_brl",
+      "split": "validation",
+      "rows": 21181,
+      "imputed": 97,
+      "iqr_flagged": 1597,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "order_value_brl",
+      "split": "test",
+      "rows": 20008,
+      "imputed": 32,
+      "iqr_flagged": 1670,
+      "scaled_below_zero": 2,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "freight_brl",
+      "split": "train",
+      "rows": 45295,
+      "imputed": 475,
+      "iqr_flagged": 4251,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "freight_brl",
+      "split": "validation",
+      "rows": 21181,
+      "imputed": 97,
+      "iqr_flagged": 2120,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "freight_brl",
+      "split": "test",
+      "rows": 20008,
+      "imputed": 32,
+      "iqr_flagged": 2548,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "item_count",
+      "split": "train",
+      "rows": 45295,
+      "imputed": 475,
+      "iqr_flagged": 4475,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "item_count",
+      "split": "validation",
+      "rows": 21181,
+      "imputed": 97,
+      "iqr_flagged": 2088,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "item_count",
+      "split": "test",
+      "rows": 20008,
+      "imputed": 32,
+      "iqr_flagged": 2090,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "seller_count",
+      "split": "train",
+      "rows": 45295,
+      "imputed": 475,
+      "iqr_flagged": 482,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "seller_count",
+      "split": "validation",
+      "rows": 21181,
+      "imputed": 97,
+      "iqr_flagged": 239,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 1
+    },
+    {
+      "feature": "seller_count",
+      "split": "test",
+      "rows": 20008,
+      "imputed": 32,
+      "iqr_flagged": 345,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "total_weight_g",
+      "split": "train",
+      "rows": 45295,
+      "imputed": 491,
+      "iqr_flagged": 6234,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "total_weight_g",
+      "split": "validation",
+      "rows": 21181,
+      "imputed": 97,
+      "iqr_flagged": 2888,
+      "scaled_below_zero": 1,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "total_weight_g",
+      "split": "test",
+      "rows": 20008,
+      "imputed": 32,
+      "iqr_flagged": 2749,
+      "scaled_below_zero": 4,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "total_volume_cm3",
+      "split": "train",
+      "rows": 45295,
+      "imputed": 491,
+      "iqr_flagged": 4054,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "total_volume_cm3",
+      "split": "validation",
+      "rows": 21181,
+      "imputed": 97,
+      "iqr_flagged": 1752,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "total_volume_cm3",
+      "split": "test",
+      "rows": 20008,
+      "imputed": 32,
+      "iqr_flagged": 1640,
+      "scaled_below_zero": 1,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "promise_days",
+      "split": "train",
+      "rows": 45295,
+      "imputed": 3,
+      "iqr_flagged": 1323,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "promise_days",
+      "split": "validation",
+      "rows": 21181,
+      "imputed": 1,
+      "iqr_flagged": 472,
+      "scaled_below_zero": 4,
+      "scaled_above_one": 2
+    },
+    {
+      "feature": "promise_days",
+      "split": "test",
+      "rows": 20008,
+      "imputed": 0,
+      "iqr_flagged": 947,
+      "scaled_below_zero": 1,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "approval_wait_days",
+      "split": "train",
+      "rows": 45295,
+      "imputed": 0,
+      "iqr_flagged": 5034,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "approval_wait_days",
+      "split": "validation",
+      "rows": 21181,
+      "imputed": 0,
+      "iqr_flagged": 2089,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    },
+    {
+      "feature": "approval_wait_days",
+      "split": "test",
+      "rows": 20008,
+      "imputed": 0,
+      "iqr_flagged": 2229,
+      "scaled_below_zero": 0,
+      "scaled_above_one": 0
+    }
+  ],
+  "validation_checks": [
+    "unique source keys",
+    "no missing key fields",
+    "cardinality-validated joins",
+    "master order count conserved",
+    "training-only fit parameters",
+    "finite model features",
+    "training scaled ranges valid",
+    "one active encoded category per field",
+    "no outcome columns in X"
+  ],
+  "software": {
+    "python": "3.12.14",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5"
+  }
+}

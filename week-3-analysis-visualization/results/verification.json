@@ -1,0 +1,3381 @@
+{
+  "status": "PASS",
+  "checks_run": 543,
+  "checks_passed": 543,
+  "checks_failed": 0,
+  "failures": [],
+  "checks": [
+    {
+      "name": "summary.source_orders",
+      "passed": true,
+      "actual": 99441,
+      "expected": 99441
+    },
+    {
+      "name": "summary.delivered_status",
+      "passed": true,
+      "actual": 96478,
+      "expected": 96478
+    },
+    {
+      "name": "summary.cycle_n",
+      "passed": true,
+      "actual": 96470,
+      "expected": 96470
+    },
+    {
+      "name": "summary.otd_n",
+      "passed": true,
+      "actual": 96470,
+      "expected": 96470
+    },
+    {
+      "name": "summary.on_time_n",
+      "passed": true,
+      "actual": 89936,
+      "expected": 89936
+    },
+    {
+      "name": "summary.on_time_pct",
+      "passed": true,
+      "actual": 93.22690992018245,
+      "expected": 93.22690992018245
+    },
+    {
+      "name": "summary.late_n",
+      "passed": true,
+      "actual": 6534,
+      "expected": 6534
+    },
+    {
+      "name": "summary.item_count_mode",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "summary.over30_days",
+      "passed": true,
+      "actual": 4550,
+      "expected": 4550
+    },
+    {
+      "name": "summary.over60_days",
+      "passed": true,
+      "actual": 306,
+      "expected": 306
+    },
+    {
+      "name": "unique_order_ids",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "input_sha256",
+      "passed": true,
+      "actual": "16455dcb8c0697f5c168ce8aba1e1a02a903b63012eae589f9409e3dd30ef4c0",
+      "expected": "16455dcb8c0697f5c168ce8aba1e1a02a903b63012eae589f9409e3dd30ef4c0"
+    },
+    {
+      "name": "descriptive_summary.cycle_days.n",
+      "passed": true,
+      "actual": 96470,
+      "expected": 96470
+    },
+    {
+      "name": "descriptive_csv.cycle_days.n",
+      "passed": true,
+      "actual": 96470.0,
+      "expected": 96470
+    },
+    {
+      "name": "descriptive_summary.cycle_days.mean",
+      "passed": true,
+      "actual": 12.558217098051976,
+      "expected": 12.558217098051976
+    },
+    {
+      "name": "descriptive_csv.cycle_days.mean",
+      "passed": true,
+      "actual": 12.558217098051976,
+      "expected": 12.558217098051976
+    },
+    {
+      "name": "descriptive_summary.cycle_days.median",
+      "passed": true,
+      "actual": 10.217476851851853,
+      "expected": 10.217476851851853
+    },
+    {
+      "name": "descriptive_csv.cycle_days.median",
+      "passed": true,
+      "actual": 10.217476851851853,
+      "expected": 10.217476851851853
+    },
+    {
+      "name": "descriptive_summary.cycle_days.std",
+      "passed": true,
+      "actual": 9.54615637792742,
+      "expected": 9.54615637792742
+    },
+    {
+      "name": "descriptive_csv.cycle_days.std",
+      "passed": true,
+      "actual": 9.54615637792742,
+      "expected": 9.54615637792742
+    },
+    {
+      "name": "descriptive_summary.cycle_days.minimum",
+      "passed": true,
+      "actual": 0.5334143518518518,
+      "expected": 0.5334143518518518
+    },
+    {
+      "name": "descriptive_csv.cycle_days.minimum",
+      "passed": true,
+      "actual": 0.5334143518518518,
+      "expected": 0.5334143518518518
+    },
+    {
+      "name": "descriptive_summary.cycle_days.q1",
+      "passed": true,
+      "actual": 6.766203703703704,
+      "expected": 6.766203703703704
+    },
+    {
+      "name": "descriptive_csv.cycle_days.q1",
+      "passed": true,
+      "actual": 6.766203703703704,
+      "expected": 6.766203703703704
+    },
+    {
+      "name": "descriptive_summary.cycle_days.q3",
+      "passed": true,
+      "actual": 15.720182291666667,
+      "expected": 15.720182291666667
+    },
+    {
+      "name": "descriptive_csv.cycle_days.q3",
+      "passed": true,
+      "actual": 15.720182291666667,
+      "expected": 15.720182291666667
+    },
+    {
+      "name": "descriptive_summary.cycle_days.p90",
+      "passed": true,
+      "actual": 23.096377314814816,
+      "expected": 23.096377314814816
+    },
+    {
+      "name": "descriptive_csv.cycle_days.p90",
+      "passed": true,
+      "actual": 23.096377314814816,
+      "expected": 23.096377314814816
+    },
+    {
+      "name": "descriptive_summary.cycle_days.maximum",
+      "passed": true,
+      "actual": 209.6286111111111,
+      "expected": 209.6286111111111
+    },
+    {
+      "name": "descriptive_csv.cycle_days.maximum",
+      "passed": true,
+      "actual": 209.6286111111111,
+      "expected": 209.6286111111111
+    },
+    {
+      "name": "descriptive_summary.cycle_days.skew",
+      "passed": true,
+      "actual": 3.8333770734241215,
+      "expected": 3.8333770734241215
+    },
+    {
+      "name": "descriptive_csv.cycle_days.skew",
+      "passed": true,
+      "actual": 3.8333770734241215,
+      "expected": 3.8333770734241215
+    },
+    {
+      "name": "descriptive_summary.freight_brl.n",
+      "passed": true,
+      "actual": 96470,
+      "expected": 96470
+    },
+    {
+      "name": "descriptive_csv.freight_brl.n",
+      "passed": true,
+      "actual": 96470.0,
+      "expected": 96470
+    },
+    {
+      "name": "descriptive_summary.freight_brl.mean",
+      "passed": true,
+      "actual": 22.834412770809575,
+      "expected": 22.834412770809575
+    },
+    {
+      "name": "descriptive_csv.freight_brl.mean",
+      "passed": true,
+      "actual": 22.83441277080957,
+      "expected": 22.834412770809575
+    },
+    {
+      "name": "descriptive_summary.freight_brl.median",
+      "passed": true,
+      "actual": 17.19,
+      "expected": 17.19
+    },
+    {
+      "name": "descriptive_csv.freight_brl.median",
+      "passed": true,
+      "actual": 17.19,
+      "expected": 17.19
+    },
+    {
+      "name": "descriptive_summary.freight_brl.std",
+      "passed": true,
+      "actual": 21.738963338540778,
+      "expected": 21.738963338540778
+    },
+    {
+      "name": "descriptive_csv.freight_brl.std",
+      "passed": true,
+      "actual": 21.738963338540778,
+      "expected": 21.738963338540778
+    },
+    {
+      "name": "descriptive_summary.freight_brl.minimum",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "name": "descriptive_csv.freight_brl.minimum",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "name": "descriptive_summary.freight_brl.q1",
+      "passed": true,
+      "actual": 13.85,
+      "expected": 13.85
+    },
+    {
+      "name": "descriptive_csv.freight_brl.q1",
+      "passed": true,
+      "actual": 13.85,
+      "expected": 13.85
+    },
+    {
+      "name": "descriptive_summary.freight_brl.q3",
+      "passed": true,
+      "actual": 24.05,
+      "expected": 24.05
+    },
+    {
+      "name": "descriptive_csv.freight_brl.q3",
+      "passed": true,
+      "actual": 24.05,
+      "expected": 24.05
+    },
+    {
+      "name": "descriptive_summary.freight_brl.p90",
+      "passed": true,
+      "actual": 39.47,
+      "expected": 39.47
+    },
+    {
+      "name": "descriptive_csv.freight_brl.p90",
+      "passed": true,
+      "actual": 39.47,
+      "expected": 39.47
+    },
+    {
+      "name": "descriptive_summary.freight_brl.maximum",
+      "passed": true,
+      "actual": 1794.9600000000005,
+      "expected": 1794.9600000000005
+    },
+    {
+      "name": "descriptive_csv.freight_brl.maximum",
+      "passed": true,
+      "actual": 1794.9600000000005,
+      "expected": 1794.9600000000005
+    },
+    {
+      "name": "descriptive_summary.freight_brl.skew",
+      "passed": true,
+      "actual": 12.143451046646904,
+      "expected": 12.143451046646904
+    },
+    {
+      "name": "descriptive_csv.freight_brl.skew",
+      "passed": true,
+      "actual": 12.143451046646904,
+      "expected": 12.143451046646904
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.n",
+      "passed": true,
+      "actual": 96470,
+      "expected": 96470
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.n",
+      "passed": true,
+      "actual": 96470.0,
+      "expected": 96470
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.mean",
+      "passed": true,
+      "actual": 137.04000134756922,
+      "expected": 137.04000134756922
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.mean",
+      "passed": true,
+      "actual": 137.04000134756922,
+      "expected": 137.04000134756922
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.median",
+      "passed": true,
+      "actual": 86.5,
+      "expected": 86.5
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.median",
+      "passed": true,
+      "actual": 86.5,
+      "expected": 86.5
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.std",
+      "passed": true,
+      "actual": 209.05260846299177,
+      "expected": 209.05260846299177
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.std",
+      "passed": true,
+      "actual": 209.05260846299177,
+      "expected": 209.05260846299177
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.minimum",
+      "passed": true,
+      "actual": 0.85,
+      "expected": 0.85
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.minimum",
+      "passed": true,
+      "actual": 0.85,
+      "expected": 0.85
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.q1",
+      "passed": true,
+      "actual": 45.9,
+      "expected": 45.9
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.q1",
+      "passed": true,
+      "actual": 45.9,
+      "expected": 45.9
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.q3",
+      "passed": true,
+      "actual": 149.9,
+      "expected": 149.9
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.q3",
+      "passed": true,
+      "actual": 149.9,
+      "expected": 149.9
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.p90",
+      "passed": true,
+      "actual": 269.0,
+      "expected": 269.0
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.p90",
+      "passed": true,
+      "actual": 269.0,
+      "expected": 269.0
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.maximum",
+      "passed": true,
+      "actual": 13440.0,
+      "expected": 13440.0
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.maximum",
+      "passed": true,
+      "actual": 13440.0,
+      "expected": 13440.0
+    },
+    {
+      "name": "descriptive_summary.order_value_brl.skew",
+      "passed": true,
+      "actual": 9.885399776798433,
+      "expected": 9.885399776798433
+    },
+    {
+      "name": "descriptive_csv.order_value_brl.skew",
+      "passed": true,
+      "actual": 9.885399776798431,
+      "expected": 9.885399776798433
+    },
+    {
+      "name": "descriptive_summary.item_count.n",
+      "passed": true,
+      "actual": 96470,
+      "expected": 96470
+    },
+    {
+      "name": "descriptive_csv.item_count.n",
+      "passed": true,
+      "actual": 96470.0,
+      "expected": 96470
+    },
+    {
+      "name": "descriptive_summary.item_count.mean",
+      "passed": true,
+      "actual": 1.1422100134756918,
+      "expected": 1.1422100134756918
+    },
+    {
+      "name": "descriptive_csv.item_count.mean",
+      "passed": true,
+      "actual": 1.1422100134756918,
+      "expected": 1.1422100134756918
+    },
+    {
+      "name": "descriptive_summary.item_count.median",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_csv.item_count.median",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_summary.item_count.std",
+      "passed": true,
+      "actual": 0.5388244844026,
+      "expected": 0.5388244844026
+    },
+    {
+      "name": "descriptive_csv.item_count.std",
+      "passed": true,
+      "actual": 0.5388244844026,
+      "expected": 0.5388244844026
+    },
+    {
+      "name": "descriptive_summary.item_count.minimum",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_csv.item_count.minimum",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_summary.item_count.q1",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_csv.item_count.q1",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_summary.item_count.q3",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_csv.item_count.q3",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_summary.item_count.p90",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_csv.item_count.p90",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "name": "descriptive_summary.item_count.maximum",
+      "passed": true,
+      "actual": 21.0,
+      "expected": 21.0
+    },
+    {
+      "name": "descriptive_csv.item_count.maximum",
+      "passed": true,
+      "actual": 21.0,
+      "expected": 21.0
+    },
+    {
+      "name": "descriptive_summary.item_count.skew",
+      "passed": true,
+      "actual": 7.557602141464502,
+      "expected": 7.557602141464502
+    },
+    {
+      "name": "descriptive_csv.item_count.skew",
+      "passed": true,
+      "actual": 7.557602141464502,
+      "expected": 7.557602141464502
+    },
+    {
+      "name": "descriptive_summary.weight_kg.n",
+      "passed": true,
+      "actual": 96448,
+      "expected": 96448
+    },
+    {
+      "name": "descriptive_csv.weight_kg.n",
+      "passed": true,
+      "actual": 96448.0,
+      "expected": 96448
+    },
+    {
+      "name": "descriptive_summary.weight_kg.mean",
+      "passed": true,
+      "actual": 2.387016796615793,
+      "expected": 2.387016796615793
+    },
+    {
+      "name": "descriptive_csv.weight_kg.mean",
+      "passed": true,
+      "actual": 2.387016796615793,
+      "expected": 2.387016796615793
+    },
+    {
+      "name": "descriptive_summary.weight_kg.median",
+      "passed": true,
+      "actual": 0.75,
+      "expected": 0.75
+    },
+    {
+      "name": "descriptive_csv.weight_kg.median",
+      "passed": true,
+      "actual": 0.75,
+      "expected": 0.75
+    },
+    {
+      "name": "descriptive_summary.weight_kg.std",
+      "passed": true,
+      "actual": 4.7702210970782275,
+      "expected": 4.7702210970782275
+    },
+    {
+      "name": "descriptive_csv.weight_kg.std",
+      "passed": true,
+      "actual": 4.770221097078228,
+      "expected": 4.7702210970782275
+    },
+    {
+      "name": "descriptive_summary.weight_kg.minimum",
+      "passed": true,
+      "actual": 0.002,
+      "expected": 0.002
+    },
+    {
+      "name": "descriptive_csv.weight_kg.minimum",
+      "passed": true,
+      "actual": 0.002,
+      "expected": 0.002
+    },
+    {
+      "name": "descriptive_summary.weight_kg.q1",
+      "passed": true,
+      "actual": 0.3,
+      "expected": 0.3
+    },
+    {
+      "name": "descriptive_csv.weight_kg.q1",
+      "passed": true,
+      "actual": 0.3,
+      "expected": 0.3
+    },
+    {
+      "name": "descriptive_summary.weight_kg.q3",
+      "passed": true,
+      "actual": 2.05,
+      "expected": 2.05
+    },
+    {
+      "name": "descriptive_csv.weight_kg.q3",
+      "passed": true,
+      "actual": 2.05,
+      "expected": 2.05
+    },
+    {
+      "name": "descriptive_summary.weight_kg.p90",
+      "passed": true,
+      "actual": 6.55,
+      "expected": 6.55
+    },
+    {
+      "name": "descriptive_csv.weight_kg.p90",
+      "passed": true,
+      "actual": 6.55,
+      "expected": 6.55
+    },
+    {
+      "name": "descriptive_summary.weight_kg.maximum",
+      "passed": true,
+      "actual": 184.4,
+      "expected": 184.4
+    },
+    {
+      "name": "descriptive_csv.weight_kg.maximum",
+      "passed": true,
+      "actual": 184.4,
+      "expected": 184.4
+    },
+    {
+      "name": "descriptive_summary.weight_kg.skew",
+      "passed": true,
+      "actual": 6.57247568805943,
+      "expected": 6.57247568805943
+    },
+    {
+      "name": "descriptive_csv.weight_kg.skew",
+      "passed": true,
+      "actual": 6.57247568805943,
+      "expected": 6.57247568805943
+    },
+    {
+      "name": "descriptive_summary.volume_litres.n",
+      "passed": true,
+      "actual": 96454,
+      "expected": 96454
+    },
+    {
+      "name": "descriptive_csv.volume_litres.n",
+      "passed": true,
+      "actual": 96454.0,
+      "expected": 96454
+    },
+    {
+      "name": "descriptive_summary.volume_litres.mean",
+      "passed": true,
+      "actual": 17.33193679888859,
+      "expected": 17.33193679888859
+    },
+    {
+      "name": "descriptive_csv.volume_litres.mean",
+      "passed": true,
+      "actual": 17.33193679888859,
+      "expected": 17.33193679888859
+    },
+    {
+      "name": "descriptive_summary.volume_litres.median",
+      "passed": true,
+      "actual": 7.254,
+      "expected": 7.254
+    },
+    {
+      "name": "descriptive_csv.volume_litres.median",
+      "passed": true,
+      "actual": 7.254,
+      "expected": 7.254
+    },
+    {
+      "name": "descriptive_summary.volume_litres.std",
+      "passed": true,
+      "actual": 30.14387059332906,
+      "expected": 30.14387059332906
+    },
+    {
+      "name": "descriptive_csv.volume_litres.std",
+      "passed": true,
+      "actual": 30.14387059332906,
+      "expected": 30.14387059332906
+    },
+    {
+      "name": "descriptive_summary.volume_litres.minimum",
+      "passed": true,
+      "actual": 0.168,
+      "expected": 0.168
+    },
+    {
+      "name": "descriptive_csv.volume_litres.minimum",
+      "passed": true,
+      "actual": 0.168,
+      "expected": 0.168
+    },
+    {
+      "name": "descriptive_summary.volume_litres.q1",
+      "passed": true,
+      "actual": 2.964,
+      "expected": 2.964
+    },
+    {
+      "name": "descriptive_csv.volume_litres.q1",
+      "passed": true,
+      "actual": 2.964,
+      "expected": 2.964
+    },
+    {
+      "name": "descriptive_summary.volume_litres.q3",
+      "passed": true,
+      "actual": 19.866,
+      "expected": 19.866
+    },
+    {
+      "name": "descriptive_csv.volume_litres.q3",
+      "passed": true,
+      "actual": 19.866,
+      "expected": 19.866
+    },
+    {
+      "name": "descriptive_summary.volume_litres.p90",
+      "passed": true,
+      "actual": 42.978,
+      "expected": 42.978
+    },
+    {
+      "name": "descriptive_csv.volume_litres.p90",
+      "passed": true,
+      "actual": 42.978,
+      "expected": 42.978
+    },
+    {
+      "name": "descriptive_summary.volume_litres.maximum",
+      "passed": true,
+      "actual": 1476.0,
+      "expected": 1476.0
+    },
+    {
+      "name": "descriptive_csv.volume_litres.maximum",
+      "passed": true,
+      "actual": 1476.0,
+      "expected": 1476.0
+    },
+    {
+      "name": "descriptive_summary.volume_litres.skew",
+      "passed": true,
+      "actual": 7.358200042291955,
+      "expected": 7.358200042291955
+    },
+    {
+      "name": "descriptive_csv.volume_litres.skew",
+      "passed": true,
+      "actual": 7.358200042291955,
+      "expected": 7.358200042291955
+    },
+    {
+      "name": "stage_n",
+      "passed": true,
+      "actual": 95082,
+      "expected": 95082
+    },
+    {
+      "name": "stage_mean.approval_wait_days",
+      "passed": true,
+      "actual": 0.4021039669608766,
+      "expected": 0.4021039669608766
+    },
+    {
+      "name": "stage_csv.approval_wait_days.n",
+      "passed": true,
+      "actual": 95082.0,
+      "expected": 95082
+    },
+    {
+      "name": "stage_csv.approval_wait_days.mean",
+      "passed": true,
+      "actual": 0.4021039669608766,
+      "expected": 0.4021039669608766
+    },
+    {
+      "name": "stage_csv.approval_wait_days.median",
+      "passed": true,
+      "actual": 0.014074074074074,
+      "expected": 0.014074074074074
+    },
+    {
+      "name": "stage_csv.approval_wait_days.std",
+      "passed": true,
+      "actual": 0.7965359557218453,
+      "expected": 0.7965359557218453
+    },
+    {
+      "name": "stage_csv.approval_wait_days.minimum",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "name": "stage_csv.approval_wait_days.q1",
+      "passed": true,
+      "actual": 0.0089351851851851,
+      "expected": 0.0089351851851851
+    },
+    {
+      "name": "stage_csv.approval_wait_days.q3",
+      "passed": true,
+      "actual": 0.564146412037037,
+      "expected": 0.564146412037037
+    },
+    {
+      "name": "stage_csv.approval_wait_days.p90",
+      "passed": true,
+      "actual": 1.3893159722222224,
+      "expected": 1.3893159722222224
+    },
+    {
+      "name": "stage_csv.approval_wait_days.maximum",
+      "passed": true,
+      "actual": 30.89348379629629,
+      "expected": 30.893483796296294
+    },
+    {
+      "name": "stage_csv.approval_wait_days.skew",
+      "passed": true,
+      "actual": 4.450173136738495,
+      "expected": 4.450173136738495
+    },
+    {
+      "name": "stage_mean.dispatch_days",
+      "passed": true,
+      "actual": 2.8517482825009917,
+      "expected": 2.8517482825009917
+    },
+    {
+      "name": "stage_csv.dispatch_days.n",
+      "passed": true,
+      "actual": 95082.0,
+      "expected": 95082
+    },
+    {
+      "name": "stage_csv.dispatch_days.mean",
+      "passed": true,
+      "actual": 2.851748282500992,
+      "expected": 2.8517482825009917
+    },
+    {
+      "name": "stage_csv.dispatch_days.median",
+      "passed": true,
+      "actual": 1.8488136574074077,
+      "expected": 1.8488136574074074
+    },
+    {
+      "name": "stage_csv.dispatch_days.std",
+      "passed": true,
+      "actual": 3.4829833611079644,
+      "expected": 3.4829833611079644
+    },
+    {
+      "name": "stage_csv.dispatch_days.minimum",
+      "passed": true,
+      "actual": 0.0001736111111111,
+      "expected": 0.0001736111111111
+    },
+    {
+      "name": "stage_csv.dispatch_days.q1",
+      "passed": true,
+      "actual": 0.9004861111111111,
+      "expected": 0.9004861111111111
+    },
+    {
+      "name": "stage_csv.dispatch_days.q3",
+      "passed": true,
+      "actual": 3.61587962962963,
+      "expected": 3.61587962962963
+    },
+    {
+      "name": "stage_csv.dispatch_days.p90",
+      "passed": true,
+      "actual": 6.01938425925926,
+      "expected": 6.01938425925926
+    },
+    {
+      "name": "stage_csv.dispatch_days.maximum",
+      "passed": true,
+      "actual": 125.76256944444444,
+      "expected": 125.76256944444444
+    },
+    {
+      "name": "stage_csv.dispatch_days.skew",
+      "passed": true,
+      "actual": 5.154459307262587,
+      "expected": 5.154459307262587
+    },
+    {
+      "name": "stage_mean.transit_days",
+      "passed": true,
+      "actual": 9.364111270646896,
+      "expected": 9.364111270646896
+    },
+    {
+      "name": "stage_csv.transit_days.n",
+      "passed": true,
+      "actual": 95082.0,
+      "expected": 95082
+    },
+    {
+      "name": "stage_csv.transit_days.mean",
+      "passed": true,
+      "actual": 9.364111270646896,
+      "expected": 9.364111270646896
+    },
+    {
+      "name": "stage_csv.transit_days.median",
+      "passed": true,
+      "actual": 7.110324074074073,
+      "expected": 7.110324074074073
+    },
+    {
+      "name": "stage_csv.transit_days.std",
+      "passed": true,
+      "actual": 8.769419749919633,
+      "expected": 8.769419749919633
+    },
+    {
+      "name": "stage_csv.transit_days.minimum",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "name": "stage_csv.transit_days.q1",
+      "passed": true,
+      "actual": 4.111122685185185,
+      "expected": 4.111122685185185
+    },
+    {
+      "name": "stage_csv.transit_days.q3",
+      "passed": true,
+      "actual": 12.057821180555557,
+      "expected": 12.057821180555555
+    },
+    {
+      "name": "stage_csv.transit_days.p90",
+      "passed": true,
+      "actual": 18.946637731481484,
+      "expected": 18.946637731481484
+    },
+    {
+      "name": "stage_csv.transit_days.maximum",
+      "passed": true,
+      "actual": 205.19097222222223,
+      "expected": 205.19097222222223
+    },
+    {
+      "name": "stage_csv.transit_days.skew",
+      "passed": true,
+      "actual": 4.503461884213691,
+      "expected": 4.503461884213691
+    },
+    {
+      "name": "stage_mean.cycle_days",
+      "passed": true,
+      "actual": 12.617963520108765,
+      "expected": 12.617963520108765
+    },
+    {
+      "name": "stage_csv.cycle_days.n",
+      "passed": true,
+      "actual": 95082.0,
+      "expected": 95082
+    },
+    {
+      "name": "stage_csv.cycle_days.mean",
+      "passed": true,
+      "actual": 12.617963520108765,
+      "expected": 12.617963520108765
+    },
+    {
+      "name": "stage_csv.cycle_days.median",
+      "passed": true,
+      "actual": 10.27097800925926,
+      "expected": 10.27097800925926
+    },
+    {
+      "name": "stage_csv.cycle_days.std",
+      "passed": true,
+      "actual": 9.571651206437132,
+      "expected": 9.571651206437133
+    },
+    {
+      "name": "stage_csv.cycle_days.minimum",
+      "passed": true,
+      "actual": 0.5334143518518518,
+      "expected": 0.5334143518518518
+    },
+    {
+      "name": "stage_csv.cycle_days.q1",
+      "passed": true,
+      "actual": 6.811791087962963,
+      "expected": 6.811791087962963
+    },
+    {
+      "name": "stage_csv.cycle_days.q3",
+      "passed": true,
+      "actual": 15.808032407407408,
+      "expected": 15.808032407407408
+    },
+    {
+      "name": "stage_csv.cycle_days.p90",
+      "passed": true,
+      "actual": 23.155991898148148,
+      "expected": 23.155991898148148
+    },
+    {
+      "name": "stage_csv.cycle_days.maximum",
+      "passed": true,
+      "actual": 209.6286111111111,
+      "expected": 209.6286111111111
+    },
+    {
+      "name": "stage_csv.cycle_days.skew",
+      "passed": true,
+      "actual": 3.8335255381896696,
+      "expected": 3.8335255381896696
+    },
+    {
+      "name": "stage_row_additivity",
+      "passed": true,
+      "actual_shape": [
+        95082
+      ],
+      "expected_shape": [
+        95082
+      ],
+      "maximum_absolute_error": 5.684341886080802e-14
+    },
+    {
+      "name": "transit_share_pct",
+      "passed": true,
+      "actual": 74.21254036535827,
+      "expected": 74.21254036535825
+    },
+    {
+      "name": "state.AC.orders",
+      "passed": true,
+      "actual": 80,
+      "expected": 80
+    },
+    {
+      "name": "state.AC.on_time",
+      "passed": true,
+      "actual": 77,
+      "expected": 77
+    },
+    {
+      "name": "state.AC.late",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "name": "state.AC.median_days",
+      "passed": true,
+      "actual": 18.356527777777774,
+      "expected": 18.356527777777778
+    },
+    {
+      "name": "state.AC.mean_freight",
+      "passed": true,
+      "actual": 45.5545,
+      "expected": 45.5545
+    },
+    {
+      "name": "state.AC.on_time_pct",
+      "passed": true,
+      "actual": 96.25,
+      "expected": 96.25
+    },
+    {
+      "name": "state.AL.orders",
+      "passed": true,
+      "actual": 397,
+      "expected": 397
+    },
+    {
+      "name": "state.AL.on_time",
+      "passed": true,
+      "actual": 312,
+      "expected": 312
+    },
+    {
+      "name": "state.AL.late",
+      "passed": true,
+      "actual": 85,
+      "expected": 85
+    },
+    {
+      "name": "state.AL.median_days",
+      "passed": true,
+      "actual": 22.332916666666662,
+      "expected": 22.332916666666662
+    },
+    {
+      "name": "state.AL.mean_freight",
+      "passed": true,
+      "actual": 39.01944584382871,
+      "expected": 39.01944584382871
+    },
+    {
+      "name": "state.AL.on_time_pct",
+      "passed": true,
+      "actual": 78.58942065491183,
+      "expected": 78.58942065491183
+    },
+    {
+      "name": "state.AM.orders",
+      "passed": true,
+      "actual": 145,
+      "expected": 145
+    },
+    {
+      "name": "state.AM.on_time",
+      "passed": true,
+      "actual": 141,
+      "expected": 141
+    },
+    {
+      "name": "state.AM.late",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "name": "state.AM.median_days",
+      "passed": true,
+      "actual": 25.875138888888888,
+      "expected": 25.875138888888888
+    },
+    {
+      "name": "state.AM.mean_freight",
+      "passed": true,
+      "actual": 37.44572413793104,
+      "expected": 37.44572413793103
+    },
+    {
+      "name": "state.AM.on_time_pct",
+      "passed": true,
+      "actual": 97.24137931034484,
+      "expected": 97.24137931034483
+    },
+    {
+      "name": "state.AP.orders",
+      "passed": true,
+      "actual": 67,
+      "expected": 67
+    },
+    {
+      "name": "state.AP.on_time",
+      "passed": true,
+      "actual": 65,
+      "expected": 65
+    },
+    {
+      "name": "state.AP.late",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "state.AP.median_days",
+      "passed": true,
+      "actual": 24.347025462962964,
+      "expected": 24.347025462962964
+    },
+    {
+      "name": "state.AP.mean_freight",
+      "passed": true,
+      "actual": 41.298507462686565,
+      "expected": 41.298507462686565
+    },
+    {
+      "name": "state.AP.on_time_pct",
+      "passed": true,
+      "actual": 97.01492537313432,
+      "expected": 97.01492537313433
+    },
+    {
+      "name": "state.BA.orders",
+      "passed": true,
+      "actual": 3256,
+      "expected": 3256
+    },
+    {
+      "name": "state.BA.on_time",
+      "passed": true,
+      "actual": 2860,
+      "expected": 2860
+    },
+    {
+      "name": "state.BA.late",
+      "passed": true,
+      "actual": 396,
+      "expected": 396
+    },
+    {
+      "name": "state.BA.median_days",
+      "passed": true,
+      "actual": 16.91396412037037,
+      "expected": 16.91396412037037
+    },
+    {
+      "name": "state.BA.mean_freight",
+      "passed": true,
+      "actual": 29.96120085995086,
+      "expected": 29.961200859950864
+    },
+    {
+      "name": "state.BA.on_time_pct",
+      "passed": true,
+      "actual": 87.83783783783784,
+      "expected": 87.83783783783784
+    },
+    {
+      "name": "state.CE.orders",
+      "passed": true,
+      "actual": 1279,
+      "expected": 1279
+    },
+    {
+      "name": "state.CE.on_time",
+      "passed": true,
+      "actual": 1103,
+      "expected": 1103
+    },
+    {
+      "name": "state.CE.late",
+      "passed": true,
+      "actual": 176,
+      "expected": 176
+    },
+    {
+      "name": "state.CE.median_days",
+      "passed": true,
+      "actual": 18.20920138888889,
+      "expected": 18.20920138888889
+    },
+    {
+      "name": "state.CE.mean_freight",
+      "passed": true,
+      "actual": 36.61910086004691,
+      "expected": 36.61910086004691
+    },
+    {
+      "name": "state.CE.on_time_pct",
+      "passed": true,
+      "actual": 86.23924941360438,
+      "expected": 86.23924941360438
+    },
+    {
+      "name": "state.DF.orders",
+      "passed": true,
+      "actual": 2080,
+      "expected": 2080
+    },
+    {
+      "name": "state.DF.on_time",
+      "passed": true,
+      "actual": 1962,
+      "expected": 1962
+    },
+    {
+      "name": "state.DF.late",
+      "passed": true,
+      "actual": 118,
+      "expected": 118
+    },
+    {
+      "name": "state.DF.median_days",
+      "passed": true,
+      "actual": 11.364924768518518,
+      "expected": 11.364924768518518
+    },
+    {
+      "name": "state.DF.mean_freight",
+      "passed": true,
+      "actual": 24.00504807692308,
+      "expected": 24.005048076923078
+    },
+    {
+      "name": "state.DF.on_time_pct",
+      "passed": true,
+      "actual": 94.32692307692308,
+      "expected": 94.32692307692308
+    },
+    {
+      "name": "state.ES.orders",
+      "passed": true,
+      "actual": 1995,
+      "expected": 1995
+    },
+    {
+      "name": "state.ES.on_time",
+      "passed": true,
+      "actual": 1781,
+      "expected": 1781
+    },
+    {
+      "name": "state.ES.late",
+      "passed": true,
+      "actual": 214,
+      "expected": 214
+    },
+    {
+      "name": "state.ES.median_days",
+      "passed": true,
+      "actual": 13.636956018518518,
+      "expected": 13.636956018518518
+    },
+    {
+      "name": "state.ES.mean_freight",
+      "passed": true,
+      "actual": 24.590576441102755,
+      "expected": 24.590576441102755
+    },
+    {
+      "name": "state.ES.on_time_pct",
+      "passed": true,
+      "actual": 89.27318295739349,
+      "expected": 89.27318295739349
+    },
+    {
+      "name": "state.GO.orders",
+      "passed": true,
+      "actual": 1957,
+      "expected": 1957
+    },
+    {
+      "name": "state.GO.on_time",
+      "passed": true,
+      "actual": 1829,
+      "expected": 1829
+    },
+    {
+      "name": "state.GO.late",
+      "passed": true,
+      "actual": 128,
+      "expected": 128
+    },
+    {
+      "name": "state.GO.median_days",
+      "passed": true,
+      "actual": 13.949606481481482,
+      "expected": 13.949606481481482
+    },
+    {
+      "name": "state.GO.mean_freight",
+      "passed": true,
+      "actual": 26.48230454777721,
+      "expected": 26.48230454777721
+    },
+    {
+      "name": "state.GO.on_time_pct",
+      "passed": true,
+      "actual": 93.45937659683187,
+      "expected": 93.45937659683189
+    },
+    {
+      "name": "state.MA.orders",
+      "passed": true,
+      "actual": 717,
+      "expected": 717
+    },
+    {
+      "name": "state.MA.on_time",
+      "passed": true,
+      "actual": 592,
+      "expected": 592
+    },
+    {
+      "name": "state.MA.late",
+      "passed": true,
+      "actual": 125,
+      "expected": 125
+    },
+    {
+      "name": "state.MA.median_days",
+      "passed": true,
+      "actual": 19.19060185185185,
+      "expected": 19.19060185185185
+    },
+    {
+      "name": "state.MA.mean_freight",
+      "passed": true,
+      "actual": 42.94863319386332,
+      "expected": 42.948633193863316
+    },
+    {
+      "name": "state.MA.on_time_pct",
+      "passed": true,
+      "actual": 82.56624825662483,
+      "expected": 82.56624825662483
+    },
+    {
+      "name": "state.MG.orders",
+      "passed": true,
+      "actual": 11354,
+      "expected": 11354
+    },
+    {
+      "name": "state.MG.on_time",
+      "passed": true,
+      "actual": 10835,
+      "expected": 10835
+    },
+    {
+      "name": "state.MG.late",
+      "passed": true,
+      "actual": 519,
+      "expected": 519
+    },
+    {
+      "name": "state.MG.median_days",
+      "passed": true,
+      "actual": 10.31351273148148,
+      "expected": 10.313512731481481
+    },
+    {
+      "name": "state.MG.mean_freight",
+      "passed": true,
+      "actual": 23.504996477012504,
+      "expected": 23.504996477012504
+    },
+    {
+      "name": "state.MG.on_time_pct",
+      "passed": true,
+      "actual": 95.42892372732076,
+      "expected": 95.42892372732076
+    },
+    {
+      "name": "state.MS.orders",
+      "passed": true,
+      "actual": 701,
+      "expected": 701
+    },
+    {
+      "name": "state.MS.on_time",
+      "passed": true,
+      "actual": 633,
+      "expected": 633
+    },
+    {
+      "name": "state.MS.late",
+      "passed": true,
+      "actual": 68,
+      "expected": 68
+    },
+    {
+      "name": "state.MS.median_days",
+      "passed": true,
+      "actual": 13.943796296296297,
+      "expected": 13.943796296296297
+    },
+    {
+      "name": "state.MS.mean_freight",
+      "passed": true,
+      "actual": 27.026034236804566,
+      "expected": 27.026034236804566
+    },
+    {
+      "name": "state.MS.on_time_pct",
+      "passed": true,
+      "actual": 90.29957203994294,
+      "expected": 90.29957203994294
+    },
+    {
+      "name": "state.MT.orders",
+      "passed": true,
+      "actual": 886,
+      "expected": 886
+    },
+    {
+      "name": "state.MT.on_time",
+      "passed": true,
+      "actual": 833,
+      "expected": 833
+    },
+    {
+      "name": "state.MT.late",
+      "passed": true,
+      "actual": 53,
+      "expected": 53
+    },
+    {
+      "name": "state.MT.median_days",
+      "passed": true,
+      "actual": 16.109050925925924,
+      "expected": 16.109050925925924
+    },
+    {
+      "name": "state.MT.mean_freight",
+      "passed": true,
+      "actual": 32.768397291196386,
+      "expected": 32.76839729119639
+    },
+    {
+      "name": "state.MT.on_time_pct",
+      "passed": true,
+      "actual": 94.01805869074492,
+      "expected": 94.01805869074492
+    },
+    {
+      "name": "state.PA.orders",
+      "passed": true,
+      "actual": 946,
+      "expected": 946
+    },
+    {
+      "name": "state.PA.on_time",
+      "passed": true,
+      "actual": 840,
+      "expected": 840
+    },
+    {
+      "name": "state.PA.late",
+      "passed": true,
+      "actual": 106,
+      "expected": 106
+    },
+    {
+      "name": "state.PA.median_days",
+      "passed": true,
+      "actual": 21.078391203703703,
+      "expected": 21.078391203703703
+    },
+    {
+      "name": "state.PA.mean_freight",
+      "passed": true,
+      "actual": 39.69659619450317,
+      "expected": 39.69659619450317
+    },
+    {
+      "name": "state.PA.on_time_pct",
+      "passed": true,
+      "actual": 88.79492600422833,
+      "expected": 88.79492600422833
+    },
+    {
+      "name": "state.PB.orders",
+      "passed": true,
+      "actual": 517,
+      "expected": 517
+    },
+    {
+      "name": "state.PB.on_time",
+      "passed": true,
+      "actual": 463,
+      "expected": 463
+    },
+    {
+      "name": "state.PB.late",
+      "passed": true,
+      "actual": 54,
+      "expected": 54
+    },
+    {
+      "name": "state.PB.median_days",
+      "passed": true,
+      "actual": 18.15244212962963,
+      "expected": 18.15244212962963
+    },
+    {
+      "name": "state.PB.mean_freight",
+      "passed": true,
+      "actual": 48.84280464216634,
+      "expected": 48.84280464216635
+    },
+    {
+      "name": "state.PB.on_time_pct",
+      "passed": true,
+      "actual": 89.55512572533848,
+      "expected": 89.55512572533848
+    },
+    {
+      "name": "state.PE.orders",
+      "passed": true,
+      "actual": 1593,
+      "expected": 1593
+    },
+    {
+      "name": "state.PE.on_time",
+      "passed": true,
+      "actual": 1440,
+      "expected": 1440
+    },
+    {
+      "name": "state.PE.late",
+      "passed": true,
+      "actual": 153,
+      "expected": 153
+    },
+    {
+      "name": "state.PE.median_days",
+      "passed": true,
+      "actual": 15.702766203703703,
+      "expected": 15.702766203703703
+    },
+    {
+      "name": "state.PE.mean_freight",
+      "passed": true,
+      "actual": 36.025925925925925,
+      "expected": 36.025925925925925
+    },
+    {
+      "name": "state.PE.on_time_pct",
+      "passed": true,
+      "actual": 90.3954802259887,
+      "expected": 90.3954802259887
+    },
+    {
+      "name": "state.PI.orders",
+      "passed": true,
+      "actual": 476,
+      "expected": 476
+    },
+    {
+      "name": "state.PI.on_time",
+      "passed": true,
+      "actual": 410,
+      "expected": 410
+    },
+    {
+      "name": "state.PI.late",
+      "passed": true,
+      "actual": 66,
+      "expected": 66
+    },
+    {
+      "name": "state.PI.median_days",
+      "passed": true,
+      "actual": 16.29226851851852,
+      "expected": 16.29226851851852
+    },
+    {
+      "name": "state.PI.mean_freight",
+      "passed": true,
+      "actual": 42.97728991596638,
+      "expected": 42.97728991596638
+    },
+    {
+      "name": "state.PI.on_time_pct",
+      "passed": true,
+      "actual": 86.1344537815126,
+      "expected": 86.1344537815126
+    },
+    {
+      "name": "state.PR.orders",
+      "passed": true,
+      "actual": 4923,
+      "expected": 4923
+    },
+    {
+      "name": "state.PR.on_time",
+      "passed": true,
+      "actual": 4724,
+      "expected": 4724
+    },
+    {
+      "name": "state.PR.late",
+      "passed": true,
+      "actual": 199,
+      "expected": 199
+    },
+    {
+      "name": "state.PR.median_days",
+      "passed": true,
+      "actual": 10.42550925925926,
+      "expected": 10.42550925925926
+    },
+    {
+      "name": "state.PR.mean_freight",
+      "passed": true,
+      "actual": 23.519703432866137,
+      "expected": 23.519703432866137
+    },
+    {
+      "name": "state.PR.on_time_pct",
+      "passed": true,
+      "actual": 95.95774933983344,
+      "expected": 95.95774933983343
+    },
+    {
+      "name": "state.RJ.orders",
+      "passed": true,
+      "actual": 12350,
+      "expected": 12350
+    },
+    {
+      "name": "state.RJ.on_time",
+      "passed": true,
+      "actual": 10855,
+      "expected": 10855
+    },
+    {
+      "name": "state.RJ.late",
+      "passed": true,
+      "actual": 1495,
+      "expected": 1495
+    },
+    {
+      "name": "state.RJ.median_days",
+      "passed": true,
+      "actual": 12.04164351851852,
+      "expected": 12.04164351851852
+    },
+    {
+      "name": "state.RJ.mean_freight",
+      "passed": true,
+      "actual": 23.966395951417,
+      "expected": 23.966395951417002
+    },
+    {
+      "name": "state.RJ.on_time_pct",
+      "passed": true,
+      "actual": 87.89473684210526,
+      "expected": 87.89473684210526
+    },
+    {
+      "name": "state.RN.orders",
+      "passed": true,
+      "actual": 474,
+      "expected": 474
+    },
+    {
+      "name": "state.RN.on_time",
+      "passed": true,
+      "actual": 430,
+      "expected": 430
+    },
+    {
+      "name": "state.RN.late",
+      "passed": true,
+      "actual": 44,
+      "expected": 44
+    },
+    {
+      "name": "state.RN.median_days",
+      "passed": true,
+      "actual": 16.060254629629632,
+      "expected": 16.060254629629632
+    },
+    {
+      "name": "state.RN.mean_freight",
+      "passed": true,
+      "actual": 39.51776371308017,
+      "expected": 39.517763713080164
+    },
+    {
+      "name": "state.RN.on_time_pct",
+      "passed": true,
+      "actual": 90.71729957805908,
+      "expected": 90.71729957805907
+    },
+    {
+      "name": "state.RO.orders",
+      "passed": true,
+      "actual": 243,
+      "expected": 243
+    },
+    {
+      "name": "state.RO.on_time",
+      "passed": true,
+      "actual": 236,
+      "expected": 236
+    },
+    {
+      "name": "state.RO.late",
+      "passed": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "name": "state.RO.median_days",
+      "passed": true,
+      "actual": 17.582361111111112,
+      "expected": 17.582361111111112
+    },
+    {
+      "name": "state.RO.mean_freight",
+      "passed": true,
+      "actual": 46.43308641975309,
+      "expected": 46.43308641975309
+    },
+    {
+      "name": "state.RO.on_time_pct",
+      "passed": true,
+      "actual": 97.119341563786,
+      "expected": 97.11934156378601
+    },
+    {
+      "name": "state.RR.orders",
+      "passed": true,
+      "actual": 41,
+      "expected": 41
+    },
+    {
+      "name": "state.RR.on_time",
+      "passed": true,
+      "actual": 36,
+      "expected": 36
+    },
+    {
+      "name": "state.RR.late",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "name": "state.RR.median_days",
+      "passed": true,
+      "actual": 25.00730324074074,
+      "expected": 25.00730324074074
+    },
+    {
+      "name": "state.RR.mean_freight",
+      "passed": true,
+      "actual": 48.34268292682927,
+      "expected": 48.34268292682927
+    },
+    {
+      "name": "state.RR.on_time_pct",
+      "passed": true,
+      "actual": 87.8048780487805,
+      "expected": 87.8048780487805
+    },
+    {
+      "name": "state.RS.orders",
+      "passed": true,
+      "actual": 5344,
+      "expected": 5344
+    },
+    {
+      "name": "state.RS.on_time",
+      "passed": true,
+      "actual": 5019,
+      "expected": 5019
+    },
+    {
+      "name": "state.RS.late",
+      "passed": true,
+      "actual": 325,
+      "expected": 325
+    },
+    {
+      "name": "state.RS.median_days",
+      "passed": true,
+      "actual": 13.177488425925926,
+      "expected": 13.177488425925926
+    },
+    {
+      "name": "state.RS.mean_freight",
+      "passed": true,
+      "actual": 24.85451347305389,
+      "expected": 24.854513473053892
+    },
+    {
+      "name": "state.RS.on_time_pct",
+      "passed": true,
+      "actual": 93.9184131736527,
+      "expected": 93.9184131736527
+    },
+    {
+      "name": "state.SC.orders",
+      "passed": true,
+      "actual": 3546,
+      "expected": 3546
+    },
+    {
+      "name": "state.SC.on_time",
+      "passed": true,
+      "actual": 3255,
+      "expected": 3255
+    },
+    {
+      "name": "state.SC.late",
+      "passed": true,
+      "actual": 291,
+      "expected": 291
+    },
+    {
+      "name": "state.SC.median_days",
+      "passed": true,
+      "actual": 13.014351851851853,
+      "expected": 13.014351851851853
+    },
+    {
+      "name": "state.SC.mean_freight",
+      "passed": true,
+      "actual": 24.85147208121828,
+      "expected": 24.851472081218276
+    },
+    {
+      "name": "state.SC.on_time_pct",
+      "passed": true,
+      "actual": 91.79357021996616,
+      "expected": 91.79357021996616
+    },
+    {
+      "name": "state.SE.orders",
+      "passed": true,
+      "actual": 335,
+      "expected": 335
+    },
+    {
+      "name": "state.SE.on_time",
+      "passed": true,
+      "actual": 284,
+      "expected": 284
+    },
+    {
+      "name": "state.SE.late",
+      "passed": true,
+      "actual": 51,
+      "expected": 51
+    },
+    {
+      "name": "state.SE.median_days",
+      "passed": true,
+      "actual": 18.014305555555556,
+      "expected": 18.014305555555556
+    },
+    {
+      "name": "state.SE.mean_freight",
+      "passed": true,
+      "actual": 40.94011940298508,
+      "expected": 40.94011940298507
+    },
+    {
+      "name": "state.SE.on_time_pct",
+      "passed": true,
+      "actual": 84.77611940298507,
+      "expected": 84.77611940298507
+    },
+    {
+      "name": "state.SP.orders",
+      "passed": true,
+      "actual": 40494,
+      "expected": 40494
+    },
+    {
+      "name": "state.SP.on_time",
+      "passed": true,
+      "actual": 38674,
+      "expected": 38674
+    },
+    {
+      "name": "state.SP.late",
+      "passed": true,
+      "actual": 1820,
+      "expected": 1820
+    },
+    {
+      "name": "state.SP.median_days",
+      "passed": true,
+      "actual": 7.210271990740741,
+      "expected": 7.210271990740741
+    },
+    {
+      "name": "state.SP.mean_freight",
+      "passed": true,
+      "actual": 17.384452758433348,
+      "expected": 17.384452758433348
+    },
+    {
+      "name": "state.SP.on_time_pct",
+      "passed": true,
+      "actual": 95.50550698868967,
+      "expected": 95.50550698868967
+    },
+    {
+      "name": "state.TO.orders",
+      "passed": true,
+      "actual": 274,
+      "expected": 274
+    },
+    {
+      "name": "state.TO.on_time",
+      "passed": true,
+      "actual": 247,
+      "expected": 247
+    },
+    {
+      "name": "state.TO.late",
+      "passed": true,
+      "actual": 27,
+      "expected": 27
+    },
+    {
+      "name": "state.TO.median_days",
+      "passed": true,
+      "actual": 15.865885416666668,
+      "expected": 15.865885416666668
+    },
+    {
+      "name": "state.TO.mean_freight",
+      "passed": true,
+      "actual": 42.35350364963504,
+      "expected": 42.35350364963504
+    },
+    {
+      "name": "state.TO.on_time_pct",
+      "passed": true,
+      "actual": 90.14598540145984,
+      "expected": 90.14598540145985
+    },
+    {
+      "name": "state_ordering_descending_volume",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "state_otd_denominator_sum",
+      "passed": true,
+      "actual": 96470,
+      "expected": 96470
+    },
+    {
+      "name": "top2_late_share_pct",
+      "passed": true,
+      "actual": 50.7346189164371,
+      "expected": 50.7346189164371
+    },
+    {
+      "name": "mature_month_count",
+      "passed": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "name": "month.2017-01.orders",
+      "passed": true,
+      "actual": 800,
+      "expected": 800
+    },
+    {
+      "name": "month.2017-01.items",
+      "passed": true,
+      "actual": 955.0,
+      "expected": 955.0
+    },
+    {
+      "name": "month.2017-01.completed",
+      "passed": true,
+      "actual": 750,
+      "expected": 750
+    },
+    {
+      "name": "month.2017-01.median",
+      "passed": true,
+      "actual": 10.733645833333334,
+      "expected": 10.733645833333334
+    },
+    {
+      "name": "month.2017-01.p90",
+      "passed": true,
+      "actual": 19.256706018518525,
+      "expected": 19.256706018518525
+    },
+    {
+      "name": "month.2017-01.completion_coverage_pct",
+      "passed": true,
+      "actual": 93.75,
+      "expected": 93.75
+    },
+    {
+      "name": "month.2017-02.orders",
+      "passed": true,
+      "actual": 1780,
+      "expected": 1780
+    },
+    {
+      "name": "month.2017-02.items",
+      "passed": true,
+      "actual": 1951.0,
+      "expected": 1951.0
+    },
+    {
+      "name": "month.2017-02.completed",
+      "passed": true,
+      "actual": 1653,
+      "expected": 1653
+    },
+    {
+      "name": "month.2017-02.median",
+      "passed": true,
+      "actual": 10.971203703703704,
+      "expected": 10.971203703703704
+    },
+    {
+      "name": "month.2017-02.p90",
+      "passed": true,
+      "actual": 22.07396527777777,
+      "expected": 22.07396527777777
+    },
+    {
+      "name": "month.2017-02.completion_coverage_pct",
+      "passed": true,
+      "actual": 92.86516853932584,
+      "expected": 92.86516853932584
+    },
+    {
+      "name": "month.2017-03.orders",
+      "passed": true,
+      "actual": 2682,
+      "expected": 2682
+    },
+    {
+      "name": "month.2017-03.items",
+      "passed": true,
+      "actual": 3000.0,
+      "expected": 3000.0
+    },
+    {
+      "name": "month.2017-03.completed",
+      "passed": true,
+      "actual": 2546,
+      "expected": 2546
+    },
+    {
+      "name": "month.2017-03.median",
+      "passed": true,
+      "actual": 10.12648726851852,
+      "expected": 10.126487268518519
+    },
+    {
+      "name": "month.2017-03.p90",
+      "passed": true,
+      "actual": 21.14054976851852,
+      "expected": 21.140549768518518
+    },
+    {
+      "name": "month.2017-03.completion_coverage_pct",
+      "passed": true,
+      "actual": 94.92915734526473,
+      "expected": 94.92915734526473
+    },
+    {
+      "name": "month.2017-04.orders",
+      "passed": true,
+      "actual": 2404,
+      "expected": 2404
+    },
+    {
+      "name": "month.2017-04.items",
+      "passed": true,
+      "actual": 2684.0,
+      "expected": 2684.0
+    },
+    {
+      "name": "month.2017-04.completed",
+      "passed": true,
+      "actual": 2303,
+      "expected": 2303
+    },
+    {
+      "name": "month.2017-04.median",
+      "passed": true,
+      "actual": 12.748622685185186,
+      "expected": 12.748622685185186
+    },
+    {
+      "name": "month.2017-04.p90",
+      "passed": true,
+      "actual": 25.32400462962967,
+      "expected": 25.32400462962967
+    },
+    {
+      "name": "month.2017-04.completion_coverage_pct",
+      "passed": true,
+      "actual": 95.79866888519136,
+      "expected": 95.79866888519135
+    },
+    {
+      "name": "month.2017-05.orders",
+      "passed": true,
+      "actual": 3700,
+      "expected": 3700
+    },
+    {
+      "name": "month.2017-05.items",
+      "passed": true,
+      "actual": 4136.0,
+      "expected": 4136.0
+    },
+    {
+      "name": "month.2017-05.completed",
+      "passed": true,
+      "actual": 3545,
+      "expected": 3545
+    },
+    {
+      "name": "month.2017-05.median",
+      "passed": true,
+      "actual": 9.793333333333331,
+      "expected": 9.793333333333331
+    },
+    {
+      "name": "month.2017-05.p90",
+      "passed": true,
+      "actual": 19.23861574074073,
+      "expected": 19.238615740740734
+    },
+    {
+      "name": "month.2017-05.completion_coverage_pct",
+      "passed": true,
+      "actual": 95.8108108108108,
+      "expected": 95.8108108108108
+    },
+    {
+      "name": "month.2017-06.orders",
+      "passed": true,
+      "actual": 3245,
+      "expected": 3245
+    },
+    {
+      "name": "month.2017-06.items",
+      "passed": true,
+      "actual": 3583.0,
+      "expected": 3583.0
+    },
+    {
+      "name": "month.2017-06.completed",
+      "passed": true,
+      "actual": 3135,
+      "expected": 3135
+    },
+    {
+      "name": "month.2017-06.median",
+      "passed": true,
+      "actual": 10.804907407407407,
+      "expected": 10.804907407407407
+    },
+    {
+      "name": "month.2017-06.p90",
+      "passed": true,
+      "actual": 19.8245787037037,
+      "expected": 19.8245787037037
+    },
+    {
+      "name": "month.2017-06.completion_coverage_pct",
+      "passed": true,
+      "actual": 96.61016949152544,
+      "expected": 96.61016949152543
+    },
+    {
+      "name": "month.2017-07.orders",
+      "passed": true,
+      "actual": 4026,
+      "expected": 4026
+    },
+    {
+      "name": "month.2017-07.items",
+      "passed": true,
+      "actual": 4519.0,
+      "expected": 4519.0
+    },
+    {
+      "name": "month.2017-07.completed",
+      "passed": true,
+      "actual": 3872,
+      "expected": 3872
+    },
+    {
+      "name": "month.2017-07.median",
+      "passed": true,
+      "actual": 10.158072916666663,
+      "expected": 10.158072916666665
+    },
+    {
+      "name": "month.2017-07.p90",
+      "passed": true,
+      "actual": 19.753638888888887,
+      "expected": 19.753638888888887
+    },
+    {
+      "name": "month.2017-07.completion_coverage_pct",
+      "passed": true,
+      "actual": 96.17486338797814,
+      "expected": 96.17486338797814
+    },
+    {
+      "name": "month.2017-08.orders",
+      "passed": true,
+      "actual": 4331,
+      "expected": 4331
+    },
+    {
+      "name": "month.2017-08.items",
+      "passed": true,
+      "actual": 4910.0,
+      "expected": 4910.0
+    },
+    {
+      "name": "month.2017-08.completed",
+      "passed": true,
+      "actual": 4193,
+      "expected": 4193
+    },
+    {
+      "name": "month.2017-08.median",
+      "passed": true,
+      "actual": 9.769814814814817,
+      "expected": 9.769814814814817
+    },
+    {
+      "name": "month.2017-08.p90",
+      "passed": true,
+      "actual": 19.22268287037037,
+      "expected": 19.222682870370374
+    },
+    {
+      "name": "month.2017-08.completion_coverage_pct",
+      "passed": true,
+      "actual": 96.81366889863772,
+      "expected": 96.81366889863773
+    },
+    {
+      "name": "month.2017-09.orders",
+      "passed": true,
+      "actual": 4285,
+      "expected": 4285
+    },
+    {
+      "name": "month.2017-09.items",
+      "passed": true,
+      "actual": 4831.0,
+      "expected": 4831.0
+    },
+    {
+      "name": "month.2017-09.completed",
+      "passed": true,
+      "actual": 4150,
+      "expected": 4150
+    },
+    {
+      "name": "month.2017-09.median",
+      "passed": true,
+      "actual": 10.314432870370371,
+      "expected": 10.314432870370371
+    },
+    {
+      "name": "month.2017-09.p90",
+      "passed": true,
+      "actual": 20.32938888888889,
+      "expected": 20.329388888888886
+    },
+    {
+      "name": "month.2017-09.completion_coverage_pct",
+      "passed": true,
+      "actual": 96.8494749124854,
+      "expected": 96.84947491248542
+    },
+    {
+      "name": "month.2017-10.orders",
+      "passed": true,
+      "actual": 4631,
+      "expected": 4631
+    },
+    {
+      "name": "month.2017-10.items",
+      "passed": true,
+      "actual": 5322.0,
+      "expected": 5322.0
+    },
+    {
+      "name": "month.2017-10.completed",
+      "passed": true,
+      "actual": 4478,
+      "expected": 4478
+    },
+    {
+      "name": "month.2017-10.median",
+      "passed": true,
+      "actual": 10.26336226851852,
+      "expected": 10.26336226851852
+    },
+    {
+      "name": "month.2017-10.p90",
+      "passed": true,
+      "actual": 20.08619328703704,
+      "expected": 20.08619328703704
+    },
+    {
+      "name": "month.2017-10.completion_coverage_pct",
+      "passed": true,
+      "actual": 96.69617793133231,
+      "expected": 96.69617793133233
+    },
+    {
+      "name": "month.2017-11.orders",
+      "passed": true,
+      "actual": 7544,
+      "expected": 7544
+    },
+    {
+      "name": "month.2017-11.items",
+      "passed": true,
+      "actual": 8665.0,
+      "expected": 8665.0
+    },
+    {
+      "name": "month.2017-11.completed",
+      "passed": true,
+      "actual": 7288,
+      "expected": 7288
+    },
+    {
+      "name": "month.2017-11.median",
+      "passed": true,
+      "actual": 12.698680555555557,
+      "expected": 12.698680555555555
+    },
+    {
+      "name": "month.2017-11.p90",
+      "passed": true,
+      "actual": 27.21030555555556,
+      "expected": 27.210305555555557
+    },
+    {
+      "name": "month.2017-11.completion_coverage_pct",
+      "passed": true,
+      "actual": 96.60657476139978,
+      "expected": 96.60657476139978
+    },
+    {
+      "name": "month.2017-12.orders",
+      "passed": true,
+      "actual": 5673,
+      "expected": 5673
+    },
+    {
+      "name": "month.2017-12.items",
+      "passed": true,
+      "actual": 6308.0,
+      "expected": 6308.0
+    },
+    {
+      "name": "month.2017-12.completed",
+      "passed": true,
+      "actual": 5513,
+      "expected": 5513
+    },
+    {
+      "name": "month.2017-12.median",
+      "passed": true,
+      "actual": 13.1421875,
+      "expected": 13.1421875
+    },
+    {
+      "name": "month.2017-12.p90",
+      "passed": true,
+      "actual": 28.26277083333333,
+      "expected": 28.262770833333335
+    },
+    {
+      "name": "month.2017-12.completion_coverage_pct",
+      "passed": true,
+      "actual": 97.17962277454608,
+      "expected": 97.17962277454609
+    },
+    {
+      "name": "month.2018-01.orders",
+      "passed": true,
+      "actual": 7269,
+      "expected": 7269
+    },
+    {
+      "name": "month.2018-01.items",
+      "passed": true,
+      "actual": 8208.0,
+      "expected": 8208.0
+    },
+    {
+      "name": "month.2018-01.completed",
+      "passed": true,
+      "actual": 7069,
+      "expected": 7069
+    },
+    {
+      "name": "month.2018-01.median",
+      "passed": true,
+      "actual": 11.83011574074074,
+      "expected": 11.83011574074074
+    },
+    {
+      "name": "month.2018-01.p90",
+      "passed": true,
+      "actual": 25.46416435185184,
+      "expected": 25.464164351851842
+    },
+    {
+      "name": "month.2018-01.completion_coverage_pct",
+      "passed": true,
+      "actual": 97.24858990232494,
+      "expected": 97.24858990232494
+    },
+    {
+      "name": "month.2018-02.orders",
+      "passed": true,
+      "actual": 6728,
+      "expected": 6728
+    },
+    {
+      "name": "month.2018-02.items",
+      "passed": true,
+      "actual": 7672.0,
+      "expected": 7672.0
+    },
+    {
+      "name": "month.2018-02.completed",
+      "passed": true,
+      "actual": 6555,
+      "expected": 6555
+    },
+    {
+      "name": "month.2018-02.median",
+      "passed": true,
+      "actual": 14.26375,
+      "expected": 14.26375
+    },
+    {
+      "name": "month.2018-02.p90",
+      "passed": true,
+      "actual": 31.01614351851852,
+      "expected": 31.016143518518522
+    },
+    {
+      "name": "month.2018-02.completion_coverage_pct",
+      "passed": true,
+      "actual": 97.42865636147442,
+      "expected": 97.42865636147444
+    },
+    {
+      "name": "month.2018-03.orders",
+      "passed": true,
+      "actual": 7211,
+      "expected": 7211
+    },
+    {
+      "name": "month.2018-03.items",
+      "passed": true,
+      "actual": 8217.0,
+      "expected": 8217.0
+    },
+    {
+      "name": "month.2018-03.completed",
+      "passed": true,
+      "actual": 7003,
+      "expected": 7003
+    },
+    {
+      "name": "month.2018-03.median",
+      "passed": true,
+      "actual": 13.36773148148148,
+      "expected": 13.36773148148148
+    },
+    {
+      "name": "month.2018-03.p90",
+      "passed": true,
+      "actual": 32.18501388888889,
+      "expected": 32.18501388888889
+    },
+    {
+      "name": "month.2018-03.completion_coverage_pct",
+      "passed": true,
+      "actual": 97.11551795867425,
+      "expected": 97.11551795867425
+    },
+    {
+      "name": "month.2018-04.orders",
+      "passed": true,
+      "actual": 6939,
+      "expected": 6939
+    },
+    {
+      "name": "month.2018-04.items",
+      "passed": true,
+      "actual": 7975.0,
+      "expected": 7975.0
+    },
+    {
+      "name": "month.2018-04.completed",
+      "passed": true,
+      "actual": 6798,
+      "expected": 6798
+    },
+    {
+      "name": "month.2018-04.median",
+      "passed": true,
+      "actual": 9.31472800925926,
+      "expected": 9.314728009259259
+    },
+    {
+      "name": "month.2018-04.p90",
+      "passed": true,
+      "actual": 21.415079861111117,
+      "expected": 21.415079861111114
+    },
+    {
+      "name": "month.2018-04.completion_coverage_pct",
+      "passed": true,
+      "actual": 97.96800691742324,
+      "expected": 97.96800691742325
+    },
+    {
+      "name": "month.2018-05.orders",
+      "passed": true,
+      "actual": 6873,
+      "expected": 6873
+    },
+    {
+      "name": "month.2018-05.items",
+      "passed": true,
+      "actual": 7925.0,
+      "expected": 7925.0
+    },
+    {
+      "name": "month.2018-05.completed",
+      "passed": true,
+      "actual": 6749,
+      "expected": 6749
+    },
+    {
+      "name": "month.2018-05.median",
+      "passed": true,
+      "actual": 9.14787037037037,
+      "expected": 9.14787037037037
+    },
+    {
+      "name": "month.2018-05.p90",
+      "passed": true,
+      "actual": 21.44504398148148,
+      "expected": 21.44504398148148
+    },
+    {
+      "name": "month.2018-05.completion_coverage_pct",
+      "passed": true,
+      "actual": 98.19583878946602,
+      "expected": 98.19583878946602
+    },
+    {
+      "name": "month.2018-06.orders",
+      "passed": true,
+      "actual": 6167,
+      "expected": 6167
+    },
+    {
+      "name": "month.2018-06.items",
+      "passed": true,
+      "actual": 7078.0,
+      "expected": 7078.0
+    },
+    {
+      "name": "month.2018-06.completed",
+      "passed": true,
+      "actual": 6096,
+      "expected": 6096
+    },
+    {
+      "name": "month.2018-06.median",
+      "passed": true,
+      "actual": 7.95761574074074,
+      "expected": 7.95761574074074
+    },
+    {
+      "name": "month.2018-06.p90",
+      "passed": true,
+      "actual": 15.914866898148148,
+      "expected": 15.914866898148148
+    },
+    {
+      "name": "month.2018-06.completion_coverage_pct",
+      "passed": true,
+      "actual": 98.84871088049294,
+      "expected": 98.84871088049294
+    },
+    {
+      "name": "monthly_orders",
+      "passed": true,
+      "actual": 86288,
+      "expected": 86288
+    },
+    {
+      "name": "monthly_completed",
+      "passed": true,
+      "actual": 83696,
+      "expected": 83696
+    },
+    {
+      "name": "corr_n",
+      "passed": true,
+      "actual": 96448,
+      "expected": 96448
+    },
+    {
+      "name": "spearman_correlations.csv",
+      "passed": true,
+      "actual_shape": [
+        6,
+        6
+      ],
+      "expected_shape": [
+        6,
+        6
+      ],
+      "maximum_absolute_error": 9.020562075079397e-17
+    },
+    {
+      "name": "pearson_correlations.csv",
+      "passed": true,
+      "actual_shape": [
+        6,
+        6
+      ],
+      "expected_shape": [
+        6,
+        6
+      ],
+      "maximum_absolute_error": 8.326672684688674e-17
+    },
+    {
+      "name": "relation_n",
+      "passed": true,
+      "actual": 96448,
+      "expected": 96448
+    },
+    {
+      "name": "zero_freight_n",
+      "passed": true,
+      "actual": 336,
+      "expected": 336
+    },
+    {
+      "name": "weight_band.0.n",
+      "passed": true,
+      "actual": 20492,
+      "expected": 20492
+    },
+    {
+      "name": "weight_band.0.median",
+      "passed": true,
+      "actual": 15.1,
+      "expected": 15.1
+    },
+    {
+      "name": "weight_band.0.q1",
+      "passed": true,
+      "actual": 10.96,
+      "expected": 10.96
+    },
+    {
+      "name": "weight_band.0.q3",
+      "passed": true,
+      "actual": 17.25,
+      "expected": 17.25
+    },
+    {
+      "name": "weight_band.1.n",
+      "passed": true,
+      "actual": 18331,
+      "expected": 18331
+    },
+    {
+      "name": "weight_band.1.median",
+      "passed": true,
+      "actual": 15.41,
+      "expected": 15.41
+    },
+    {
+      "name": "weight_band.1.q1",
+      "passed": true,
+      "actual": 12.62,
+      "expected": 12.62
+    },
+    {
+      "name": "weight_band.1.q3",
+      "passed": true,
+      "actual": 18.79,
+      "expected": 18.79
+    },
+    {
+      "name": "weight_band.2.n",
+      "passed": true,
+      "actual": 16895,
+      "expected": 16895
+    },
+    {
+      "name": "weight_band.2.median",
+      "passed": true,
+      "actual": 16.34,
+      "expected": 16.34
+    },
+    {
+      "name": "weight_band.2.q1",
+      "passed": true,
+      "actual": 13.37,
+      "expected": 13.37
+    },
+    {
+      "name": "weight_band.2.q3",
+      "passed": true,
+      "actual": 20.09,
+      "expected": 20.09
+    },
+    {
+      "name": "weight_band.3.n",
+      "passed": true,
+      "actual": 16406,
+      "expected": 16406
+    },
+    {
+      "name": "weight_band.3.median",
+      "passed": true,
+      "actual": 17.88,
+      "expected": 17.88
+    },
+    {
+      "name": "weight_band.3.q1",
+      "passed": true,
+      "actual": 14.44,
+      "expected": 14.44
+    },
+    {
+      "name": "weight_band.3.q3",
+      "passed": true,
+      "actual": 23.29,
+      "expected": 23.29
+    },
+    {
+      "name": "weight_band.4.n",
+      "passed": true,
+      "actual": 11332,
+      "expected": 11332
+    },
+    {
+      "name": "weight_band.4.median",
+      "passed": true,
+      "actual": 22.29,
+      "expected": 22.29
+    },
+    {
+      "name": "weight_band.4.q1",
+      "passed": true,
+      "actual": 17.0875,
+      "expected": 17.0875
+    },
+    {
+      "name": "weight_band.4.q3",
+      "passed": true,
+      "actual": 32.4375,
+      "expected": 32.4375
+    },
+    {
+      "name": "weight_band.5.n",
+      "passed": true,
+      "actual": 7724,
+      "expected": 7724
+    },
+    {
+      "name": "weight_band.5.median",
+      "passed": true,
+      "actual": 26.435,
+      "expected": 26.435000000000002
+    },
+    {
+      "name": "weight_band.5.q1",
+      "passed": true,
+      "actual": 18.2775,
+      "expected": 18.2775
+    },
+    {
+      "name": "weight_band.5.q3",
+      "passed": true,
+      "actual": 42.015,
+      "expected": 42.015
+    },
+    {
+      "name": "weight_band.6.n",
+      "passed": true,
+      "actual": 5268,
+      "expected": 5268
+    },
+    {
+      "name": "weight_band.6.median",
+      "passed": true,
+      "actual": 49.8,
+      "expected": 49.8
+    },
+    {
+      "name": "weight_band.6.q1",
+      "passed": true,
+      "actual": 31.19,
+      "expected": 31.189999999999998
+    },
+    {
+      "name": "weight_band.6.q3",
+      "passed": true,
+      "actual": 77.81750000000001,
+      "expected": 77.81750000000001
+    },
+    {
+      "name": "weight_band_population_sum",
+      "passed": true,
+      "actual": 96448,
+      "expected": 96448
+    },
+    {
+      "name": "scatter_sample_reproducibility",
+      "passed": true,
+      "actual_shape": [
+        3000,
+        2
+      ],
+      "expected_shape": [
+        3000,
+        2
+      ],
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "name": "histogram_counts",
+      "passed": true,
+      "actual_shape": [
+        30
+      ],
+      "expected_shape": [
+        30
+      ],
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "name": "histogram_plus_tail_reconciliation",
+      "passed": true,
+      "actual": 96470,
+      "expected": 96470
+    },
+    {
+      "name": "ecdf_percentages",
+      "passed": true,
+      "actual_shape": [
+        61
+      ],
+      "expected_shape": [
+        61
+      ],
+      "maximum_absolute_error": 1.4210854715202004e-14
+    },
+    {
+      "name": "synthetic_n",
+      "passed": true,
+      "actual": 2000,
+      "expected": 2000
+    },
+    {
+      "name": "synthetic_unique_ids",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "synthetic_seed",
+      "passed": true,
+      "actual": 20261022,
+      "expected": 20261022
+    },
+    {
+      "name": "synthetic_seed_dates",
+      "passed": true,
+      "actual": "List contents compared in memory",
+      "expected": "Identical list contents required"
+    },
+    {
+      "name": "synthetic_seed_distances",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 2.2737367544323206e-13
+    },
+    {
+      "name": "synthetic_seed_weights",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "synthetic_seed_units",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "name": "synthetic_seed_delays",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "name": "synthetic_delivery_formula",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 2.6645352591003757e-15
+    },
+    {
+      "name": "synthetic_promise_formula",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "name": "synthetic_ontime_flags",
+      "passed": true,
+      "actual": "List contents compared in memory",
+      "expected": "Identical list contents required"
+    },
+    {
+      "name": "synthetic_base_cost_brl",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "name": "synthetic_mean_base_cost_brl",
+      "passed": true,
+      "actual": 12.0,
+      "expected": 12.0
+    },
+    {
+      "name": "synthetic_distance_cost_brl",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 2.1316282072803006e-14
+    },
+    {
+      "name": "synthetic_mean_distance_cost_brl",
+      "passed": true,
+      "actual": 21.856242932990444,
+      "expected": 21.856242932990444
+    },
+    {
+      "name": "synthetic_weight_cost_brl",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 3.552713678800501e-15
+    },
+    {
+      "name": "synthetic_mean_weight_cost_brl",
+      "passed": true,
+      "actual": 3.305525255520599,
+      "expected": 3.305525255520599
+    },
+    {
+      "name": "synthetic_delay_cost_brl",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "name": "synthetic_mean_delay_cost_brl",
+      "passed": true,
+      "actual": 2.366,
+      "expected": 2.366
+    },
+    {
+      "name": "synthetic_baseline_formula",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 1.4210854715202004e-14
+    },
+    {
+      "name": "synthetic_distance_sensitivity",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 2.1316282072803006e-14
+    },
+    {
+      "name": "synthetic_delay_sensitivity",
+      "passed": true,
+      "actual_shape": [
+        2000
+      ],
+      "expected_shape": [
+        2000
+      ],
+      "maximum_absolute_error": 1.4210854715202004e-14
+    },
+    {
+      "name": "synthetic_sensitivity_mean_baseline",
+      "passed": true,
+      "actual": 39.52776818851105,
+      "expected": 39.52776818851105
+    },
+    {
+      "name": "synthetic_sensitivity_mean_distance_minus10pct",
+      "passed": true,
+      "actual": 37.342143895212004,
+      "expected": 37.342143895212004
+    },
+    {
+      "name": "synthetic_savings_distance_minus10pct",
+      "passed": true,
+      "actual": 2.1856242932990426,
+      "expected": 2.1856242932990426
+    },
+    {
+      "name": "synthetic_sensitivity_mean_delay_minus1day",
+      "passed": true,
+      "actual": 38.12776818851104,
+      "expected": 38.12776818851104
+    },
+    {
+      "name": "synthetic_savings_delay_minus1day",
+      "passed": true,
+      "actual": 1.4000000000000057,
+      "expected": 1.4000000000000057
+    },
+    {
+      "name": "synthetic_cost_n",
+      "passed": true,
+      "actual": 2000,
+      "expected": 2000
+    },
+    {
+      "name": "synthetic_cost_mean",
+      "passed": true,
+      "actual": 39.52776818851105,
+      "expected": 39.52776818851105
+    },
+    {
+      "name": "synthetic_cost_median",
+      "passed": true,
+      "actual": 39.160636053075514,
+      "expected": 39.16063605307552
+    },
+    {
+      "name": "synthetic_cost_std",
+      "passed": true,
+      "actual": 12.714732028462173,
+      "expected": 12.714732028462175
+    },
+    {
+      "name": "synthetic_cost_minimum",
+      "passed": true,
+      "actual": 14.83410709695142,
+      "expected": 14.83410709695142
+    },
+    {
+      "name": "synthetic_cost_q1",
+      "passed": true,
+      "actual": 29.423695765257307,
+      "expected": 29.423695765257307
+    },
+    {
+      "name": "synthetic_cost_q3",
+      "passed": true,
+      "actual": 49.68689676258405,
+      "expected": 49.686896762584055
+    },
+    {
+      "name": "synthetic_cost_p90",
+      "passed": true,
+      "actual": 55.68813454530834,
+      "expected": 55.68813454530834
+    },
+    {
+      "name": "synthetic_cost_maximum",
+      "passed": true,
+      "actual": 88.64896308851851,
+      "expected": 88.64896308851851
+    },
+    {
+      "name": "synthetic_cost_skew",
+      "passed": true,
+      "actual": 0.1340802808066363,
+      "expected": 0.13408028080663634
+    },
+    {
+      "name": "synthetic_delivery_n",
+      "passed": true,
+      "actual": 2000,
+      "expected": 2000
+    },
+    {
+      "name": "synthetic_delivery_mean",
+      "passed": true,
+      "actual": 3.67304694599909,
+      "expected": 3.67304694599909
+    },
+    {
+      "name": "synthetic_delivery_median",
+      "passed": true,
+      "actual": 3.6040348854925055,
+      "expected": 3.6040348854925055
+    },
+    {
+      "name": "synthetic_delivery_std",
+      "passed": true,
+      "actual": 1.497407147170558,
+      "expected": 1.497407147170558
+    },
+    {
+      "name": "synthetic_delivery_minimum",
+      "passed": true,
+      "actual": 1.173693492297569,
+      "expected": 1.173693492297569
+    },
+    {
+      "name": "synthetic_delivery_q1",
+      "passed": true,
+      "actual": 2.5171550259755704,
+      "expected": 2.5171550259755704
+    },
+    {
+      "name": "synthetic_delivery_q3",
+      "passed": true,
+      "actual": 4.609010946684785,
+      "expected": 4.609010946684785
+    },
+    {
+      "name": "synthetic_delivery_p90",
+      "passed": true,
+      "actual": 5.561352660278416,
+      "expected": 5.561352660278416
+    },
+    {
+      "name": "synthetic_delivery_maximum",
+      "passed": true,
+      "actual": 8.95875261111843,
+      "expected": 8.95875261111843
+    },
+    {
+      "name": "synthetic_delivery_skew",
+      "passed": true,
+      "actual": 0.582800745345476,
+      "expected": 0.582800745345476
+    },
+    {
+      "name": "synthetic_on_time_pct",
+      "passed": true,
+      "actual": 84.65,
+      "expected": 84.65
+    },
+    {
+      "name": "synthetic_item_units",
+      "passed": true,
+      "actual": 5947,
+      "expected": 5947
+    },
+    {
+      "name": "synthetic_distance_cost_correlation",
+      "passed": true,
+      "actual": 0.9179028697018262,
+      "expected": 0.9179028697018261
+    }
+  ],
+  "methodology_review": {
+    "numerical_fixes_required": [],
+    "interpretation_requirements": [
+      "Keep historical observed charges and hypothetical operating costs explicitly separate.",
+      "The two synthetic sensitivities are separate cost-only cases holding other inputs fixed; no joint saving or delivery-time improvement is calculated.",
+      "Synthetic distance-cost correlation is induced by the assumed formula and is not empirical causal evidence.",
+      "Show both eligible cohort denominators and all-order monthly volumes.",
+      "Disclose 306 completed orders above the 60-day histogram range; preserve these records in all statistics.",
+      "Use stage mean shares on the common cohort of 95,082; do not add medians.",
+      "ReportLab is used for chart rendering; do not claim matplotlib/seaborn/plotly execution."
+    ],
+    "scope": "Numerical CSV/JSON outputs and Python analysis inspected; document and rendered charts require visual review separately."
+  }
+}

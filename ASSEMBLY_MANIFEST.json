@@ -1,0 +1,818 @@
+{
+  "assembled": "2026-10-24",
+  "sources": [
+    {
+      "package": "Week_1_GitHub_Upload_Package.zip",
+      "package_sha256": "58621b1a3eea7190899c50745f0d993062d40bc6f0d2f09b5e515c2016dd3833",
+      "destination": "week-1-planning",
+      "files_in_original_package": 7
+    },
+    {
+      "package": "Week_2_GitHub_Project.zip",
+      "package_sha256": "6a20cab11a026d61309739bd21480e073b6c7a721ba97f43105c313bc7fd159c",
+      "destination": "week-2-data-preparation",
+      "files_in_original_package": 18
+    },
+    {
+      "package": "Week_3_GitHub_Project.zip",
+      "package_sha256": "fd7ce344003b75da9cb9c748c087838b22f502cfd76d2c539df332084d5141e0",
+      "destination": "week-3-analysis-visualization",
+      "files_in_original_package": 44
+    },
+    {
+      "package": "Week_4_GitHub_Project.zip",
+      "package_sha256": "dd0c7c97b3c3beccdf9c0e8eb6f0ab4c0d286d69407e1b38fdd0464079f42ac3",
+      "destination": "week-4-modeling-optimization",
+      "files_in_original_package": 53
+    }
+  ],
+  "changes": "Weekly README navigation and submission guidance updated for one repository. Added root documentation, descriptions, attributes, and integrity verification. Original reports, data, charts, results, and analysis code preserved.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 155,
+      "sha256": "ff28df1e5060a4add438effb262ff017543069e3862d42de671ee58e64447e12",
+      "git_blob_sha": "689f4a58a0597e1366cdaef158124257b1e19573"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 101,
+      "sha256": "8128cf1b531927226906f80772db816bff836969fc567440add493bd754d8059",
+      "git_blob_sha": "a8628d77e13b5048b9dde5f68f71098a04d99ce0"
+    },
+    {
+      "path": "DATA_SOURCES.md",
+      "bytes": 2146,
+      "sha256": "55049d3ca8eedc0e126cbbaa0f888e8a831acee8018033efed2e845dbee543b2",
+      "git_blob_sha": "d6a2d6ef12d49813d8ee773add11771b0269fdb2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6063,
+      "sha256": "3115f5fd361706b8b13b913a77b09497c328519d43d571662f5dc896eb73a7d6",
+      "git_blob_sha": "70a05cff4c13a8ebffdba041fe6e24b09e0773af"
+    },
+    {
+      "path": "verify_repository.py",
+      "bytes": 476,
+      "sha256": "1cedd3763ec90ba111e5683605ed4c9399b6942827a078a33c52641b0699adfb",
+      "git_blob_sha": "57a4c7920899e4d5f56182ebf4e530e1f36b1ca9"
+    },
+    {
+      "path": "week-1-planning/demo.py",
+      "bytes": 1460,
+      "sha256": "0abae0f22e5d6889ad8a7bc043336b67a1a3efcfb9b7f367ff9c539d1cb63c24",
+      "git_blob_sha": "81928e4f357e602bb6090b9f49be482a0ab48fb0"
+    },
+    {
+      "path": "week-1-planning/logistics_kpis.py",
+      "bytes": 2047,
+      "sha256": "32cd803d4fd522ebdae7e88874780c2e77c1bd062c49fd4118726849fa472adf",
+      "git_blob_sha": "4d329b81a36f16a1dc1f3d7e7379f772e7a70636"
+    },
+    {
+      "path": "week-1-planning/MODEL_PLAN.md",
+      "bytes": 2419,
+      "sha256": "98da5274a282e51873e055e9a99fb8b2c24692ccdaa256b20c9f87389d080cc5",
+      "git_blob_sha": "33f44bf89044a34670222fd986d821176b68b11f"
+    },
+    {
+      "path": "week-1-planning/README.md",
+      "bytes": 4750,
+      "sha256": "50bdef87cbf621a9f9260114298048695ba597e158b5ffdc2dc26e1a6bbff393",
+      "git_blob_sha": "6e2c96603b36109bbdd692fb33bc15c4c3021985"
+    },
+    {
+      "path": "week-1-planning/requirements.txt",
+      "bytes": 18,
+      "sha256": "0a0fcb9ec63a4f2ee30fb0dd740fa4fcf88dd56cdb600d3df22f7b7bab70b893",
+      "git_blob_sha": "3c5fb1c5d91503c8f6d91aea83c7c440567af18d"
+    },
+    {
+      "path": "week-1-planning/Submission_Description.txt",
+      "bytes": 1949,
+      "sha256": "576676a871707f7df82266d2739f62bd319488260368622532a9edce7b75d46d",
+      "git_blob_sha": "4392247d5ab805400d7a83bff20603b074fe8c0f"
+    },
+    {
+      "path": "week-1-planning/Week_1_Report.docx",
+      "bytes": 49671,
+      "sha256": "5865fb6567e627907e9a44b24a65dbd5c4f80961fb50ae418ec9a41578498204",
+      "git_blob_sha": "92c1b2befb7200ba3667bb253a6ca7371dd3f171"
+    },
+    {
+      "path": "week-1-planning/WORK_PLAN.md",
+      "bytes": 3351,
+      "sha256": "7c51ca7b4d2a1b263e27925f696977f876a114467b1903b45b5e78117c1cd30f",
+      "git_blob_sha": "8d6146c0c57ac7483c608af5871a29b8b6a3302f"
+    },
+    {
+      "path": "week-2-data-preparation/data/LICENSE",
+      "bytes": 1063,
+      "sha256": "711bcd3c7100387058446ecc870b995146b9ad6b953a7d5ea6dbdece4e6bdaa2",
+      "git_blob_sha": "c94d6ffa241db121aecc3d89ce2b3c0ced8b43d5"
+    },
+    {
+      "path": "week-2-data-preparation/data/README.md",
+      "bytes": 7718,
+      "sha256": "b832007c190504593ff105161be3e097a5e60d4c3c28abd984f4370575e29cc4",
+      "git_blob_sha": "baae0d844af2c0fe3e117924c94fab69eae00a24"
+    },
+    {
+      "path": "week-2-data-preparation/data/source_manifest.json",
+      "bytes": 2019,
+      "sha256": "8eab6bb8a8810e51eb5c9608b19500298f8e5bed1c35f3203e05a211513c40c0",
+      "git_blob_sha": "bda8f72a2a8d1548629a554ff7e7c05804ff6c10"
+    },
+    {
+      "path": "week-2-data-preparation/download_data.py",
+      "bytes": 1627,
+      "sha256": "7df61b730c66b8b89fe47ecc9ca17ded5eb3c7f52eef22ef52085c0df03cd16e",
+      "git_blob_sha": "b29e004af2a3ab61619f9f339f993a21364e3a3c"
+    },
+    {
+      "path": "week-2-data-preparation/preprocess.py",
+      "bytes": 13900,
+      "sha256": "17d355ee7e6e294ea05dfe23005fccec4d66ec08a5ef7e1a2976c870a9ae60f1",
+      "git_blob_sha": "e492170dbfe78a92421d8e511f4e99e27b6a2dc3"
+    },
+    {
+      "path": "week-2-data-preparation/README.md",
+      "bytes": 5719,
+      "sha256": "7f5641a28ab9d6f22550bb7ebace2379aa80ddee07a428d412eb5692ef6421ba",
+      "git_blob_sha": "e911c9343b4b05cefb27cd4b0946619cce790fdb"
+    },
+    {
+      "path": "week-2-data-preparation/reports/Submission_Description.txt",
+      "bytes": 1697,
+      "sha256": "0f73a21554e0ef93fcad0dd5a77f027003c83fb5e748d83add377f2125278053",
+      "git_blob_sha": "4df7869987b43b75b8c77f4b8307fc69bad8714e"
+    },
+    {
+      "path": "week-2-data-preparation/reports/Week_2_Report.docx",
+      "bytes": 50135,
+      "sha256": "ef1315c9e299a5c7083035484d8a496277f008862d7894c26419881f92a98bb1",
+      "git_blob_sha": "3ae875a5c4856670b1aba37ddbab6a817ddde74c"
+    },
+    {
+      "path": "week-2-data-preparation/requirements.txt",
+      "bytes": 29,
+      "sha256": "902406fefbf5df44d070b0ee84673588208755f7fe7921cf411be7da44266a8f",
+      "git_blob_sha": "f1880bfeb2247136694640de1eca8fc1768c242f"
+    },
+    {
+      "path": "week-2-data-preparation/results/audit_summary.json",
+      "bytes": 9949,
+      "sha256": "6f87f898c45b9b1d84211ac57415938d16b05d4a511c8ec38c7201774c6cfa49",
+      "git_blob_sha": "453cf0b6c317b2226f5c0dc548e0de67b234852a"
+    },
+    {
+      "path": "week-2-data-preparation/results/before_after_examples.csv",
+      "bytes": 752,
+      "sha256": "bb9684d8b2dc621a908d59c48b6916ae01317ea1906e8f247c1ece2d690af361",
+      "git_blob_sha": "dd5bbe078c6dc6775e0af7f74f2f7af34e2009ef"
+    },
+    {
+      "path": "week-2-data-preparation/results/feature_index_and_labels.csv.gz",
+      "bytes": 2309014,
+      "sha256": "df3bdc1d06543487463ef2d4ff57337ae66f8b53339275f447bde2542cef446f",
+      "git_blob_sha": "bb07f3626c95ee8fbcc30a491cf3bd56ab63dedf"
+    },
+    {
+      "path": "week-2-data-preparation/results/orders_audit.csv.gz",
+      "bytes": 12398276,
+      "sha256": "b13518cc0ee72b35a92bea92a10e8c353a7200929ac2661ebb693958bac51388",
+      "git_blob_sha": "ac312674af2cfe54be7c536c7aa9e2c5ef35dd34"
+    },
+    {
+      "path": "week-2-data-preparation/results/prepared_features.csv.gz",
+      "bytes": 4511635,
+      "sha256": "f5781a414a9a1c2e6a351282b7ebc0b129ae2ae988e566c3fe8b006ca274be4b",
+      "git_blob_sha": "1c4051ed5b3cec948962385b9397b5ca1fca2e04"
+    },
+    {
+      "path": "week-2-data-preparation/results/preprocessing_counts.csv",
+      "bytes": 1050,
+      "sha256": "3781c5bead3a6a24222fa4bfc8c7402f07ba0b0f796cf8a16c7b19398c5b355a",
+      "git_blob_sha": "7bacf74c85c44220ff1d0b6bc850f2791497333b"
+    },
+    {
+      "path": "week-2-data-preparation/results/preprocessing_parameters.json",
+      "bytes": 5073,
+      "sha256": "3fc0e4bbab7e6b93c1141868642b488f601ea237541fa153b730cb3ba1a5cdaf",
+      "git_blob_sha": "39a96a470b767e0dd02f1d34d3591d26fdbb00bd"
+    },
+    {
+      "path": "week-2-data-preparation/results/verification.json",
+      "bytes": 483,
+      "sha256": "1425e1f66c782341e5d86fc01bef0f74a03fdab362dfb6e9533d75d746e0b94c",
+      "git_blob_sha": "4ff06d275c9b38850fbba3382e916319611d5af9"
+    },
+    {
+      "path": "week-2-data-preparation/Submission_Description.txt",
+      "bytes": 1697,
+      "sha256": "0f73a21554e0ef93fcad0dd5a77f027003c83fb5e748d83add377f2125278053",
+      "git_blob_sha": "4df7869987b43b75b8c77f4b8307fc69bad8714e"
+    },
+    {
+      "path": "week-2-data-preparation/verify_results.py",
+      "bytes": 2930,
+      "sha256": "1ebcd7f7dd2307be213d95d2f5bbfaa14039f7887334f3fb9f1cb754b39ada30",
+      "git_blob_sha": "c32977020bb012d2eb557b4863c0664e08bb9da1"
+    },
+    {
+      "path": "week-3-analysis-visualization/.gitignore",
+      "bytes": 88,
+      "sha256": "4fc551f2e41a943dc34070302856753b2e7f262ef311383f985b00296821aa0a",
+      "git_blob_sha": "a0279cf114c853370a5b86fc1e00a34050a8a00f"
+    },
+    {
+      "path": "week-3-analysis-visualization/analyze.py",
+      "bytes": 8120,
+      "sha256": "b68b979390eb0a36869f22e237eebb95ef9210634cbe0c8eb0131fe657756a19",
+      "git_blob_sha": "c2c9dc416ccd7b69710fba832f47a7861cd2b313"
+    },
+    {
+      "path": "week-3-analysis-visualization/data/orders_audit.csv.gz",
+      "bytes": 12398259,
+      "sha256": "16455dcb8c0697f5c168ce8aba1e1a02a903b63012eae589f9409e3dd30ef4c0",
+      "git_blob_sha": "223c01c7ac6e3fe18853027ba13999e61bb98cfe"
+    },
+    {
+      "path": "week-3-analysis-visualization/data/provenance.json",
+      "bytes": 781,
+      "sha256": "3700c6681d267b28c70b08db783b4732133be77ae949297880edeaf40e55ff4b",
+      "git_blob_sha": "c8661e473b4da804c39d01d68b3c471156e3440d"
+    },
+    {
+      "path": "week-3-analysis-visualization/data/SOURCE_LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "711bcd3c7100387058446ecc870b995146b9ad6b953a7d5ea6dbdece4e6bdaa2",
+      "git_blob_sha": "c94d6ffa241db121aecc3d89ce2b3c0ced8b43d5"
+    },
+    {
+      "path": "week-3-analysis-visualization/data/source_manifest.json",
+      "bytes": 2019,
+      "sha256": "8eab6bb8a8810e51eb5c9608b19500298f8e5bed1c35f3203e05a211513c40c0",
+      "git_blob_sha": "bda8f72a2a8d1548629a554ff7e7c05804ff6c10"
+    },
+    {
+      "path": "week-3-analysis-visualization/data/SOURCE_README.md",
+      "bytes": 7718,
+      "sha256": "b832007c190504593ff105161be3e097a5e60d4c3c28abd984f4370575e29cc4",
+      "git_blob_sha": "baae0d844af2c0fe3e117924c94fab69eae00a24"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/01_monthly_trends.pdf",
+      "bytes": 3193,
+      "sha256": "541666392eb8e774bbe14f696c5f0cdd6e3b9d3ad408f480ef139cc44fcd223d",
+      "git_blob_sha": "73aced13e81e4bda8c59190b82307748348a7a41"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/01_monthly_trends.png",
+      "bytes": 108631,
+      "sha256": "fd768da6fa8efe1f35824ba82bcd17a65fb34a37710ed41ebaf68b833b8f4545",
+      "git_blob_sha": "7c8781764e17283d4f5afa9f9d9e16030be63d10"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/02_cycle_distribution.pdf",
+      "bytes": 2863,
+      "sha256": "41900e90990a8008ee48bd082922594ad5ff91c30e06cad886b9dae100ba086d",
+      "git_blob_sha": "70db6463d9a92fef2632bf7e3d588ee3ee87f013"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/02_cycle_distribution.png",
+      "bytes": 128951,
+      "sha256": "5eb24bb895679c613a50ecbb7476564342d4c3c882345983b939c38278913ad4",
+      "git_blob_sha": "8036bbfecb7622fc49c933c17055b266a0a7f2d9"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/03_state_on_time.pdf",
+      "bytes": 3436,
+      "sha256": "d02eb3971e2d40c4211673334723f35e5991a1a52c6477eafaae8219408350d0",
+      "git_blob_sha": "95ed60f20b7efa8f622b2d4c57b9423476c9cd82"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/03_state_on_time.png",
+      "bytes": 137897,
+      "sha256": "5155573fcefc1a8c00a755abc11a79d8d3a738733e63ec0ede148d5362a9208d",
+      "git_blob_sha": "a03cdebb2f386595650d2e4b5590ce0766b371c4"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/04_stage_decomposition.pdf",
+      "bytes": 2303,
+      "sha256": "0e64c3928a10eef7706d098c103964a67594f126948632b9d7ec2fcd257d1cc5",
+      "git_blob_sha": "68c5a2302759d0f20002cabdbdbf24f92da3a046"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/04_stage_decomposition.png",
+      "bytes": 86760,
+      "sha256": "aae4426d749bdcd360cc320a26937aa114b73f18f39c20c5ca5eba598c612914",
+      "git_blob_sha": "09c641656e4e941e0cdb4a8519f6b1cfc2e80bd7"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/05_weight_freight.pdf",
+      "bytes": 243359,
+      "sha256": "111407dfd432afaa1550d83c748785d2eac736dcb9a36b9a8cd56b34678ec007",
+      "git_blob_sha": "d7bc2826146ea4e3c27051a79556fe9851ee717f"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/05_weight_freight.png",
+      "bytes": 215310,
+      "sha256": "3280adf858237031aa21fb017314977b21dbbb6983fad8dff98536cae8c4591e",
+      "git_blob_sha": "9ef6c5f1e72b2a792c98db8076fb323dade83c26"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/06_correlation_heatmap.pdf",
+      "bytes": 3407,
+      "sha256": "e9bc3705e7ca6171c7d8f52f30db673f6198954e80d72e61d0977025601c1d0d",
+      "git_blob_sha": "3f896357eaa9389b67644a4a2dc807e33930564d"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/06_correlation_heatmap.png",
+      "bytes": 177793,
+      "sha256": "bac440c07b25181185490bd79f1c6c3de5b4e9b82f3488d7c6fa9d74eda08fc2",
+      "git_blob_sha": "e8b472b613f548ab16af7746d1f92bbb07a13bf5"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/07_late_order_burden.pdf",
+      "bytes": 2629,
+      "sha256": "f659b80e31649749c5d75e0e157897c87e7272fe198bc9968c460c4b35fe7a0d",
+      "git_blob_sha": "b89485702f0fb7dd0f12fc5bb3a49526c138fc46"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/07_late_order_burden.png",
+      "bytes": 99685,
+      "sha256": "fc98d45d30271b509cab2eb0425e8afa8325b78522d9810fbe5c692993293ed3",
+      "git_blob_sha": "5ef4c8caec67362b1458563d16b110887e38778c"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/08_simulated_cost_sensitivity.pdf",
+      "bytes": 2548,
+      "sha256": "909ede892a470c8c320900946c3409f648792a35fad27698bfe0d657ac0e91be",
+      "git_blob_sha": "d1670dbfb8ba9211cca6bb00ac7718dc268860fd"
+    },
+    {
+      "path": "week-3-analysis-visualization/figures/08_simulated_cost_sensitivity.png",
+      "bytes": 117444,
+      "sha256": "1a5e9b850cadc9681a3c4054c619f4b41bfc571320724ae29705a21a776e89e8",
+      "git_blob_sha": "9aa7bde1e46bc9f7b0aca196ca215a06fabb9681"
+    },
+    {
+      "path": "week-3-analysis-visualization/make_charts.py",
+      "bytes": 12933,
+      "sha256": "812edc15d97e07c4e7d73dc3624cb7af3b7925bc87f1c6c089e224837222e7c2",
+      "git_blob_sha": "dc2af9bbc1e095882caa196e8aeebd87a82fe511"
+    },
+    {
+      "path": "week-3-analysis-visualization/preparation/download_data.py",
+      "bytes": 1627,
+      "sha256": "7df61b730c66b8b89fe47ecc9ca17ded5eb3c7f52eef22ef52085c0df03cd16e",
+      "git_blob_sha": "b29e004af2a3ab61619f9f339f993a21364e3a3c"
+    },
+    {
+      "path": "week-3-analysis-visualization/preparation/preprocess.py",
+      "bytes": 13900,
+      "sha256": "17d355ee7e6e294ea05dfe23005fccec4d66ec08a5ef7e1a2976c870a9ae60f1",
+      "git_blob_sha": "e492170dbfe78a92421d8e511f4e99e27b6a2dc3"
+    },
+    {
+      "path": "week-3-analysis-visualization/README.md",
+      "bytes": 8836,
+      "sha256": "ca1f0f3dd0c789b75e2fbc4fa21fa8d6e147c1629bb1e42124d8a036a7f55145",
+      "git_blob_sha": "62962eebca1f2d1f34089711dddce477d1eee0ff"
+    },
+    {
+      "path": "week-3-analysis-visualization/requirements.txt",
+      "bytes": 47,
+      "sha256": "0e4541aa10a3269b73969f1abd8390a9aff9a81d112b365f6bd8cc960286fb62",
+      "git_blob_sha": "4d5e78353feae2adb7154b437b0f68b7b6a2044c"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/cycle_ecdf.csv",
+      "bytes": 1338,
+      "sha256": "416e0ced24106ad43d15cc0b95edc4bc9ab2a253324441124d987790b7310ecc",
+      "git_blob_sha": "cf73cfb72c010e3910ef759b4b279bf23b9acbc3"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/cycle_histogram.csv",
+      "bytes": 365,
+      "sha256": "cb7df545f9dc534c00eb8138b0fe4118fd95caa8347d44ae53345beeb86d65fb",
+      "git_blob_sha": "00318211c8cbcaf2df6483167cc1b0709b617f72"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/descriptive_statistics.csv",
+      "bytes": 805,
+      "sha256": "d603af309bcc3d4968a80a762ae2b317e62e24a8c77886871dc7181d11fc7f92",
+      "git_blob_sha": "0716690fcccaade361f90620188291e3bb026e74"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/freight_by_weight.csv",
+      "bytes": 301,
+      "sha256": "289f1733d8f2f088dead1d71fd874675fec6d2b27b5ce47a990472df38ace4fb",
+      "git_blob_sha": "060cc884b57bf8102e16955e7c09e86c6d5ab8b6"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/hypothetical_shipments.csv",
+      "bytes": 375164,
+      "sha256": "3e39dc158e87779456bdbb88af05775ee86e1e4926d32825c1d15e9ec9f56eba",
+      "git_blob_sha": "84831ab1f84313104567fdc0366b944cf8155c20"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/monthly_performance.csv",
+      "bytes": 1489,
+      "sha256": "a560a95fe7ebf35b29c3dc24d793d548c7fa74c4b0db1365e8285d164a7908f3",
+      "git_blob_sha": "5de69b4ef8a2de688a3f8175f2ce60bdfc923ed4"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/pearson_correlations.csv",
+      "bytes": 770,
+      "sha256": "8b17970ad1d12df5ecc57e5ee0dcea7f5886582ad6ae302b46ad39cc85a8daf2",
+      "git_blob_sha": "d07822a955b95d8e915aba68ed8f677f499ec6a5"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/scatter_sample.csv",
+      "bytes": 59597,
+      "sha256": "1a9e1a658a79baeef69252d89a0eb4ca6c35c4ce9b7cad911fcd16b4156cfe25",
+      "git_blob_sha": "a4c7f51269d60fa91a26d3348ad037c6d1d947a0"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/spearman_correlations.csv",
+      "bytes": 764,
+      "sha256": "4bb59d8a27bbbce7a0e0f3b26e90b322a5b6a3fb5d30e23ba011a9a161fe53d3",
+      "git_blob_sha": "d313b1a5d35109a42041cf6366720b61b3f0273e"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/stage_statistics.csv",
+      "bytes": 786,
+      "sha256": "e25e7573c4e4c6a9a019ee5af9da86e1d7fa9abd145392a8c7785b1d96dea398",
+      "git_blob_sha": "017961d078026b3ffaa4cb14ee979d586b07bd5a"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/state_performance.csv",
+      "bytes": 1979,
+      "sha256": "a9bb0d568d906024fc5e5affb1f9ac747864fa11d7f461ac43f23a95f9634b9e",
+      "git_blob_sha": "abbca748eccba6e07abae94324f7caa50d3a7c51"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/summary.json",
+      "bytes": 4267,
+      "sha256": "b79b0c5f56c361c5a8db5e8d0965f6ac3b653fe8d939e076b90776b0e45b4d35",
+      "git_blob_sha": "9ac8a3b8375d3a6d0c6ad5d9b7a6695aa71aceee"
+    },
+    {
+      "path": "week-3-analysis-visualization/results/verification.json",
+      "bytes": 79492,
+      "sha256": "e0d89484182f4a714813bdbf091aa5fe782cdea8751bdf737101acc189681157",
+      "git_blob_sha": "f87b5d9364b3eb3c19f4b8aa43ca2cc28e3629c5"
+    },
+    {
+      "path": "week-3-analysis-visualization/Rida_Sahin_Week_3_Logistics_Analysis_and_Visualization_Report.docx",
+      "bytes": 1049599,
+      "sha256": "362321b91848b1cb514117996b7f3612ea45e76714cb12ff944536e277178f9d",
+      "git_blob_sha": "10f623b2e7caf02c87d16ae8e4302b9cccb6fee7"
+    },
+    {
+      "path": "week-3-analysis-visualization/Submission_Description.txt",
+      "bytes": 1957,
+      "sha256": "a3f7a0e2572d3711259b8ec2fe49c559552c748310ba91a6ad034457ee2949dd",
+      "git_blob_sha": "ecca232c5b6bed9906fa588eda45727d2f67bfeb"
+    },
+    {
+      "path": "week-3-analysis-visualization/verify_outputs.py",
+      "bytes": 12054,
+      "sha256": "cd195a9a7f853701119999098980dfb09f6d1215c46235e3945d819b4954789f",
+      "git_blob_sha": "22f4d0ad5e54ff65d0a64c7e5322fa5c1986c939"
+    },
+    {
+      "path": "week-3-analysis-visualization/Week_3_Submission_Description.txt",
+      "bytes": 1957,
+      "sha256": "a3f7a0e2572d3711259b8ec2fe49c559552c748310ba91a6ad034457ee2949dd",
+      "git_blob_sha": "ecca232c5b6bed9906fa588eda45727d2f67bfeb"
+    },
+    {
+      "path": "week-4-modeling-optimization/.gitignore",
+      "bytes": 88,
+      "sha256": "4fc551f2e41a943dc34070302856753b2e7f262ef311383f985b00296821aa0a",
+      "git_blob_sha": "a0279cf114c853370a5b86fc1e00a34050a8a00f"
+    },
+    {
+      "path": "week-4-modeling-optimization/data/feature_index_and_labels.csv.gz",
+      "bytes": 2308985,
+      "sha256": "3525cc3e7220e4b197bb57442bb71f1470e7b1d8d35ae44e65c5514e9ebc560f",
+      "git_blob_sha": "2dde7ff66aff9d20d9956b5363e817191ac2e136"
+    },
+    {
+      "path": "week-4-modeling-optimization/data/hypothetical_shipments.csv.gz",
+      "bytes": 153887,
+      "sha256": "b35d1aac5f0569c3be95fa11191cc07f90241b919d70b6dd3fedcf68df1ef971",
+      "git_blob_sha": "6cb50692af0e2233e0f5e97b19827c0a0c76115d"
+    },
+    {
+      "path": "week-4-modeling-optimization/data/olist_orders_dataset.csv.gz",
+      "bytes": 6927164,
+      "sha256": "7f5bc20340f93cf543d612e3543b1096dc934a2b6d861630737ce35fd51a3b36",
+      "git_blob_sha": "56eeb35f3017044a2948e80bdb3f54573ea1ad88"
+    },
+    {
+      "path": "week-4-modeling-optimization/data/orders_audit.csv.gz",
+      "bytes": 12398259,
+      "sha256": "16455dcb8c0697f5c168ce8aba1e1a02a903b63012eae589f9409e3dd30ef4c0",
+      "git_blob_sha": "223c01c7ac6e3fe18853027ba13999e61bb98cfe"
+    },
+    {
+      "path": "week-4-modeling-optimization/data/prepared_features.csv.gz",
+      "bytes": 4511613,
+      "sha256": "5b62d94e4bd023cb820fbb769b80c1dd890be86d3f0ad673d4b8ba2dd9ff1d12",
+      "git_blob_sha": "3a11dadd8ecd7c0c3428f7faa5f47d2ee2c3089d"
+    },
+    {
+      "path": "week-4-modeling-optimization/data/preprocessing_parameters.json",
+      "bytes": 5073,
+      "sha256": "3fc0e4bbab7e6b93c1141868642b488f601ea237541fa153b730cb3ba1a5cdaf",
+      "git_blob_sha": "39a96a470b767e0dd02f1d34d3591d26fdbb00bd"
+    },
+    {
+      "path": "week-4-modeling-optimization/data/provenance.json",
+      "bytes": 1973,
+      "sha256": "944d3f11790e81ed12449a4577e3dc6bcc8cac28920491b29da0e8286a95d951",
+      "git_blob_sha": "f3250f85e5350df0c4178d729d726f6473b93433"
+    },
+    {
+      "path": "week-4-modeling-optimization/data/SOURCE_LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "711bcd3c7100387058446ecc870b995146b9ad6b953a7d5ea6dbdece4e6bdaa2",
+      "git_blob_sha": "c94d6ffa241db121aecc3d89ce2b3c0ced8b43d5"
+    },
+    {
+      "path": "week-4-modeling-optimization/data/source_manifest.json",
+      "bytes": 2019,
+      "sha256": "8eab6bb8a8810e51eb5c9608b19500298f8e5bed1c35f3203e05a211513c40c0",
+      "git_blob_sha": "bda8f72a2a8d1548629a554ff7e7c05804ff6c10"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/01_validation_comparison.pdf",
+      "bytes": 21464,
+      "sha256": "1766894c637796e39cf547bb9ec16646df4560888576f0ff76261e3e1f2c2dc1",
+      "git_blob_sha": "009055a53332512b7be91e40ece6715b12a59178"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/01_validation_comparison.png",
+      "bytes": 136456,
+      "sha256": "2aa9b9c5e8cf4529555af6e0eee586c634b797ee496019298a7cc26b0330e5be",
+      "git_blob_sha": "b4107b04091695f64d4cc660f2687ef10f67e7f7"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/02_test_diagnostics.pdf",
+      "bytes": 29570,
+      "sha256": "be40513053e4d8e4540caeba7ede5c17bf027eb183e6b7e0268a1c659eb5c812",
+      "git_blob_sha": "8c1cb0a118f5f90872a2e44950503c49c2f84a9b"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/02_test_diagnostics.png",
+      "bytes": 223370,
+      "sha256": "e5881d808d223d2a833b47fc3fbd6fd5e61c0034a2f49c076a399e12cef6d845",
+      "git_blob_sha": "90a6d17dda131cd29af904daaad5851b7be25b1d"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/03_cohort_errors.pdf",
+      "bytes": 22664,
+      "sha256": "15bdf5a5f8d935020eaa54b1f2282bd92c2520d62ac307620a0fc5d55615370d",
+      "git_blob_sha": "39fa10f8b4ac69ed1b28eb2e4626d544ac98d6ea"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/03_cohort_errors.png",
+      "bytes": 158410,
+      "sha256": "0f3e25b9de7a23597c0f39a69e31a57366f51b28dd8733ffaaeec6c4ac15005e",
+      "git_blob_sha": "efc49ecdbac9b7c395803e81d0b79dbea8f634ab"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/04_validation_importance.pdf",
+      "bytes": 27147,
+      "sha256": "d0faa336a86b5dbe927283908af0df9e613770af349b555b59e600f4c256b823",
+      "git_blob_sha": "c82bc549000da72e84464afd9d57172f1395e627"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/04_validation_importance.png",
+      "bytes": 133898,
+      "sha256": "8fa468c1cf17029037064d9a41ad840baa9f220549b79653254bf5f115d3effd",
+      "git_blob_sha": "f62a43cbcabb5933b94ff1ab016ef0da046aa608"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/05_review_allocation.pdf",
+      "bytes": 29850,
+      "sha256": "307af1b0c30ebec33ddee7ff6eb95fa340a9c346cae0b5618123fb6509f97a0c",
+      "git_blob_sha": "632a705d4ea9ef4591781f8b57b1fb755e57f00d"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/05_review_allocation.png",
+      "bytes": 217471,
+      "sha256": "006e75da05e44b6504d34d64db8518470d114a2e8968df264fb8b8036ccb55f3",
+      "git_blob_sha": "91e77fb9ae35b4ba4a201989d6a1f4a1e2e36a8a"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/06_synthetic_experiment.pdf",
+      "bytes": 35826,
+      "sha256": "4a9c24b52ce4c8758ebd0eb8d516157e1029755b3e07cf82e7d916e185db59f5",
+      "git_blob_sha": "c90dda197859c7b0ce84ef82c4563fe6f608a2e6"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/06_synthetic_experiment.png",
+      "bytes": 221218,
+      "sha256": "5df43901eb999cab9d0e2e3dc239aecc23e6a2661588bdd978dc3ca66a842c7a",
+      "git_blob_sha": "507d1e2fdb1d5ea383f94fbbf422a229b8aa96ab"
+    },
+    {
+      "path": "week-4-modeling-optimization/figures/figure_manifest.json",
+      "bytes": 1478,
+      "sha256": "afd7d5725b084724c9582534f71bd366a26bc2a963401b7edded24a45058ff67",
+      "git_blob_sha": "9cdd83d4f39df4ff370f3f4e5b7e7ae197c638f6"
+    },
+    {
+      "path": "week-4-modeling-optimization/make_charts.py",
+      "bytes": 15279,
+      "sha256": "547cd0c15968d1fb0ed4751883322422b2cf8889a65a9cf4728cdd528ef3b820",
+      "git_blob_sha": "b2f9c5ab8a017fc48bcdf871481fa4fc543a319e"
+    },
+    {
+      "path": "week-4-modeling-optimization/model.py",
+      "bytes": 16486,
+      "sha256": "3f652f3ba36321b15e7e3805a1092337731fc0b41b4a3a6deb46bc7781607052",
+      "git_blob_sha": "47319f64403d774d659f4f00a54d6cc51cb39b3b"
+    },
+    {
+      "path": "week-4-modeling-optimization/preparation/download_data.py",
+      "bytes": 1627,
+      "sha256": "7df61b730c66b8b89fe47ecc9ca17ded5eb3c7f52eef22ef52085c0df03cd16e",
+      "git_blob_sha": "b29e004af2a3ab61619f9f339f993a21364e3a3c"
+    },
+    {
+      "path": "week-4-modeling-optimization/preparation/generate_simulation.py",
+      "bytes": 1426,
+      "sha256": "fc41a6ae95621bfdd77ffdebc5178473eae51fed539fb9afe83517e93fc80718",
+      "git_blob_sha": "149d5bcd4accd485b9db1ba1cf8f1dc19a61fe62"
+    },
+    {
+      "path": "week-4-modeling-optimization/preparation/preprocess.py",
+      "bytes": 13900,
+      "sha256": "17d355ee7e6e294ea05dfe23005fccec4d66ec08a5ef7e1a2976c870a9ae60f1",
+      "git_blob_sha": "e492170dbfe78a92421d8e511f4e99e27b6a2dc3"
+    },
+    {
+      "path": "week-4-modeling-optimization/README.md",
+      "bytes": 7394,
+      "sha256": "09e95d8aa34eb3c7b25f555388af1076bf03e91f6bca19b131443f965741fad1",
+      "git_blob_sha": "87288acc0b34f5c18c764488ad6e1b9bd46a0d97"
+    },
+    {
+      "path": "week-4-modeling-optimization/reports/Rida_Sahin_Week_4_Predictive_Modeling_and_Optimization_Report.docx",
+      "bytes": 1062777,
+      "sha256": "d102cca1663b788ec01df1b7addc269ed73c7159e2d7f8e0f3ef819b4c0012d0",
+      "git_blob_sha": "43a7ef0301cf6fc4dc2e1040f1a42ad96f011a03"
+    },
+    {
+      "path": "week-4-modeling-optimization/reports/Submission_Description.txt",
+      "bytes": 1979,
+      "sha256": "97ade8222df02926500e51e6fec7c70679bc02f5e586a36b6af82edc5dd444aa",
+      "git_blob_sha": "15f072dac6fe30290b206f3e576d64be33705165"
+    },
+    {
+      "path": "week-4-modeling-optimization/requirements.txt",
+      "bytes": 267,
+      "sha256": "17359507429c782b1ac4c077d20d85862486ba0ba973230a06f64beac69a1dc5",
+      "git_blob_sha": "3d740f64b1ce95fb5a833edcb1709c69f78a6671"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/analysis_plan.json",
+      "bytes": 1524,
+      "sha256": "b0349e6df4e85794a258de0e984d9d8464abdf88d626bf0b9c49306a19b7f8b9",
+      "git_blob_sha": "4771e4613d8f9c4d595b2c925508d1ee777544ba"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/cohorts.csv",
+      "bytes": 332,
+      "sha256": "c17799dd1d4e4df4f7970996bcbc1542791f5ad0e0da11b8434c5c04c437ab29",
+      "git_blob_sha": "2f376b181896aec318dc37deda615b4dca8b522b"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/daily_allocation.csv",
+      "bytes": 2154,
+      "sha256": "7e321b123eba243007dbcf6a2efdeedc1b981948d2896e2400ffe44f903deb04",
+      "git_blob_sha": "2f05ea8c0c32028b00e1655393b0bec3a60a7eb2"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/error_by_actual_duration.csv",
+      "bytes": 504,
+      "sha256": "50246c7bf2b1f30d7a2173e17392f8499c1658bb76cbd8501f2d375927a3045a",
+      "git_blob_sha": "22ee785ac81e77bba95f523664b6d48100878fbe"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/independent_verification.json",
+      "bytes": 855,
+      "sha256": "895380f50a19c44b32c69bd86c0d9b384be4d79b143f72b3fd1a5b8593e9e6ab",
+      "git_blob_sha": "bce6b297313f1862992cfa0497daa519d1df98aa"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/monthly_test_metrics.csv",
+      "bytes": 469,
+      "sha256": "c77a1d9e7aa13f1af2cec1f4531cbac0d7751266147f06e95374b3bbd098951f",
+      "git_blob_sha": "81214aa8d9564db6d448738e6fc324823a5340ca"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/permutation_importance.csv",
+      "bytes": 658,
+      "sha256": "5b98dab435ed0fac026f18b9758af0476dcb510f1f1e2db8d4487211607ab894",
+      "git_blob_sha": "c4daa6798dc6f1421c375263d52929382f19cd72"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/queue_metrics.csv",
+      "bytes": 927,
+      "sha256": "6026f0008ccaded38de7baf0c52170963dfcac0135853907eb4fc0dd2fab7fea",
+      "git_blob_sha": "854c5f55ce8aad4123d5f413efe12d66098f5a19"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/selection.json",
+      "bytes": 781,
+      "sha256": "0abbd91af925a67c39037ce8c657c7160c9db54bd30b220f734e445093a4e5b4",
+      "git_blob_sha": "cb7b24e15420ecc7e4c034b1a007bfa87e3b1488"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/state_test_metrics.csv",
+      "bytes": 3329,
+      "sha256": "b4693e2684bae6bff8380e522a8fac2c17139b30947d69a143e5ac643a47f471",
+      "git_blob_sha": "cf3aef10a392b86d26a7bdf19d714e5a4c8b6e4a"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/summary.json",
+      "bytes": 6739,
+      "sha256": "01b7436faa46144230abc032832d04c2dd286bdf7e93d7f66be7c88c5d1c33ad",
+      "git_blob_sha": "371eded9d04f058ffa32f276622c2ae3f277919a"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/synthetic_metrics.csv",
+      "bytes": 676,
+      "sha256": "96915c0f9d44efada498c46cacf6a7df1251daf330ccdbabf8549cae21419e31",
+      "git_blob_sha": "9145911c2c9655a868d3bf09831816b5dd95b7cf"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/synthetic_test_predictions.csv",
+      "bytes": 25270,
+      "sha256": "8b283dce19fa9d0e0264c80d14e955478a618f8ca6b7971bc94527a6b2d50f06",
+      "git_blob_sha": "cabe39410d2aec0ce73b0054ffbaa94e3e5e17be"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/test_all_approval_predictions.csv",
+      "bytes": 3658024,
+      "sha256": "50fda34c3ec0963525b2e095e40b0bc949da322bcb7ac737e0f2824820855881",
+      "git_blob_sha": "c18679cacab75c8ade7b1dde1399ac69b20a708b"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/test_metrics.csv",
+      "bytes": 496,
+      "sha256": "4c1305ef81a5ec41d9f97cd706d63b4e495f8ecb88635d612886a057b519ed32",
+      "git_blob_sha": "9fd9d98981a96d92115bc1f608930b0b69405d35"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/test_predictions.csv",
+      "bytes": 2331136,
+      "sha256": "8519bf659640b1629331a50acc3debf8f16f4a68f53b68b2e5eabbcd165fd775",
+      "git_blob_sha": "fc3c3b310ccf493cd23bd234a26a7645fcd34680"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/trained_model.joblib",
+      "bytes": 385679,
+      "sha256": "47eb6f7ad1f39e6df10872b0bb5a9d899da822162d542557367cfdc800aaea6c",
+      "git_blob_sha": "98f0f67e4faf60675155d1b067af6b364720ca13"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/validation_label_coverage.csv",
+      "bytes": 90,
+      "sha256": "76b883b2950656a1b6bed8295b2c918bb643d49f01cd6cf364d3a4548578b2bc",
+      "git_blob_sha": "b44e92a87cfc0875e208ff0cfe14c7691fd46d16"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/validation_model_comparison.csv",
+      "bytes": 1665,
+      "sha256": "ccb6fabc24c7658ef3e96d192206ae28e7399e8ce1319ff8417e097f73869671",
+      "git_blob_sha": "0563d3c514c7f0d3a82f2c2ea1cc058c9dfb6568"
+    },
+    {
+      "path": "week-4-modeling-optimization/results/validation_predictions.csv",
+      "bytes": 631359,
+      "sha256": "8d15a4ef5fd03694174bb285ad50e2dcbf3c2c45ce0ffc090d5ab9548e29c269",
+      "git_blob_sha": "bd6f94804f626a916f32d8ba286fb8345ecbf4d8"
+    },
+    {
+      "path": "week-4-modeling-optimization/Submission_Description.txt",
+      "bytes": 1979,
+      "sha256": "97ade8222df02926500e51e6fec7c70679bc02f5e586a36b6af82edc5dd444aa",
+      "git_blob_sha": "15f072dac6fe30290b206f3e576d64be33705165"
+    },
+    {
+      "path": "week-4-modeling-optimization/verify_results.py",
+      "bytes": 7231,
+      "sha256": "c10c203bec737b1e324948ed24fffee20af25a157a8d7c94616618e69f4c1446",
+      "git_blob_sha": "6214a6f0b45ca616d45fa2bfb2b506dfc73e5dde"
+    }
+  ]
+}

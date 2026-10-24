@@ -1,0 +1,4 @@
+split,all_approvals,all_eligible_labels,mature_approvals,mature_eligible_labels,mature_without_label,label_cutoff,approval_before
+train,45295,41173,32220,30932,1288,2018-01-01,2017-11-02 00:00:00
+validation,21181,16837,6962,6753,209,2018-04-01,2018-01-31 00:00:00
+test,20008,19654,20008,19654,354,2018-09-01,2018-07-03 00:00:00

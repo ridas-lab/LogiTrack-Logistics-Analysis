@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "verification_categories": 11,
+  "checks": [
+    "train cohort reconstructed from raw timestamps",
+    "validation cohort reconstructed from raw timestamps",
+    "test cohort reconstructed from raw timestamps",
+    "validation saved model predictions and metrics recomputed",
+    "test saved model predictions and metrics recomputed",
+    "Mean and median baseline test metrics independently recomputed",
+    "Model selection minimizes recorded mature validation MAE among 10 candidates",
+    "Queue score, known outcome mask, and late labels reconstructed from raw timestamps",
+    "All 8 queue policy capacity combinations independently reconstructed",
+    "All monthly and state error metrics recomputed from saved predictions",
+    "Synthetic target construction and held out metric arithmetic verified"
+  ]
+}

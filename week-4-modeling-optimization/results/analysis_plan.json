@@ -1,0 +1,47 @@
+{
+  "target": "remaining_delivery_days: approval to delivered customer, conditional on observable completed delivery",
+  "minimum_followup_days": 60,
+  "cutoffs": {
+    "train": "2018-01-01",
+    "validation": "2018-04-01",
+    "test": "2018-09-01"
+  },
+  "selection": "Lowest MAE on mature validation labels; deterministic tie by model name",
+  "test_use": "Evaluate selected frozen model and baselines only; no test tuning or refitting",
+  "prediction_postprocessing": "clip below zero; no upper clipping",
+  "candidate_grid": {
+    "ridge_alpha": [
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "decision_tree_depth": [
+      4,
+      8
+    ],
+    "tree_min_samples_leaf": 50,
+    "hgb_max_leaf_nodes": [
+      15,
+      31
+    ],
+    "hgb_max_iter": 200,
+    "hgb_learning_rate": 0.05,
+    "hgb_min_samples_leaf": 50,
+    "hgb_l2_regularization": 1,
+    "hgb_loss": "squared_error",
+    "hgb_early_stopping": false
+  },
+  "queue_capacity_primary": 100,
+  "capacity_sensitivity": [
+    25,
+    50,
+    100,
+    150
+  ],
+  "queue_objective": "Maximize sum of prediction minus original promised duration at a fixed daily review count",
+  "missing_promise_policy": "Flag for manual promise validation first; remaining slots ranked by score",
+  "queue_comparator": "Earliest approval first within each approval day",
+  "synthetic_probe": "Week 3 independent 2000-row simulation; Ridge alpha1 fixed, distance/weight/units only; chronological July split",
+  "seed": 20261023
+}

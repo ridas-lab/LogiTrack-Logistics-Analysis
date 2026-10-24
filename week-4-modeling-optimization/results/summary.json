@@ -1,0 +1,216 @@
+{
+  "selected_model": "Gradient boosting leaves 15",
+  "feature_count": 54,
+  "cohorts": [
+    {
+      "split": "train",
+      "all_approvals": 45295,
+      "all_eligible_labels": 41173,
+      "mature_approvals": 32220,
+      "mature_eligible_labels": 30932,
+      "mature_without_label": 1288,
+      "label_cutoff": "2018-01-01",
+      "approval_before": "2017-11-02 00:00:00"
+    },
+    {
+      "split": "validation",
+      "all_approvals": 21181,
+      "all_eligible_labels": 16837,
+      "mature_approvals": 6962,
+      "mature_eligible_labels": 6753,
+      "mature_without_label": 209,
+      "label_cutoff": "2018-04-01",
+      "approval_before": "2018-01-31 00:00:00"
+    },
+    {
+      "split": "test",
+      "all_approvals": 20008,
+      "all_eligible_labels": 19654,
+      "mature_approvals": 20008,
+      "mature_eligible_labels": 19654,
+      "mature_without_label": 354,
+      "label_cutoff": "2018-09-01",
+      "approval_before": "2018-07-03 00:00:00"
+    }
+  ],
+  "validation_selected": {
+    "n": 6753,
+    "mae_days": 5.2335597799280125,
+    "rmse_days": 7.918846074120121,
+    "r2": 0.240259794410851,
+    "bias_days": -1.5279212648452796,
+    "median_absolute_error_days": 3.5635311711317748,
+    "p90_absolute_error_days": 11.280637820861532
+  },
+  "validation_all_label_diagnostic": {
+    "n": 16837,
+    "mae_days": 5.03524197827596,
+    "rmse_days": 7.3945963548262235,
+    "r2": 0.23089995220269166,
+    "bias_days": -2.010064529043505,
+    "median_absolute_error_days": 3.4207732029426623,
+    "p90_absolute_error_days": 11.415535747441654
+  },
+  "validation_without_promise_diagnostic": {
+    "n": 6753,
+    "mae_days": 5.431428441613957,
+    "rmse_days": 8.27720897811237,
+    "r2": 0.1699406465940706,
+    "bias_days": -1.9791402791750545,
+    "median_absolute_error_days": 3.6289137876478827,
+    "p90_absolute_error_days": 11.880239739963303
+  },
+  "test": [
+    {
+      "model": "Selected model",
+      "n": 19654,
+      "mae_days": 4.667373345526019,
+      "rmse_days": 6.641171370156127,
+      "r2": 0.25672941121868875,
+      "bias_days": 0.9511234441707412,
+      "median_absolute_error_days": 3.62087476406914,
+      "p90_absolute_error_days": 9.034729335535701
+    },
+    {
+      "model": "Median baseline",
+      "n": 19654,
+      "mae_days": 5.396981214242507,
+      "rmse_days": 7.709297764072927,
+      "r2": -0.0015836224286809308,
+      "bias_days": -0.3065469750526727,
+      "median_absolute_error_days": 4.138246527777778,
+      "p90_absolute_error_days": 9.836152777777782
+    },
+    {
+      "model": "Mean baseline",
+      "n": 19654,
+      "mae_days": 5.920487182184553,
+      "rmse_days": 7.834188188133192,
+      "r2": -0.034297734666335566,
+      "bias_days": 1.4266056216977883,
+      "median_absolute_error_days": 5.158998842592592,
+      "p90_absolute_error_days": 9.982658383787497
+    }
+  ],
+  "primary_allocation": [
+    {
+      "capacity": 100,
+      "policy": "Model priority",
+      "selected": 8765,
+      "selected_known": 8595,
+      "selected_unknown": 170,
+      "selected_late": 428,
+      "total_known": 19654,
+      "total_late": 827,
+      "late_capture_pct": 51.75332527206771,
+      "late_precision_pct": 4.979639325189064,
+      "outcome_coverage_pct": 98.06046776953794
+    },
+    {
+      "capacity": 100,
+      "policy": "FIFO",
+      "selected": 8765,
+      "selected_known": 8637,
+      "selected_unknown": 128,
+      "selected_late": 355,
+      "total_known": 19654,
+      "total_late": 827,
+      "late_capture_pct": 42.926239419588875,
+      "late_precision_pct": 4.110223457218941,
+      "outcome_coverage_pct": 98.53964632059326
+    }
+  ],
+  "test_approval_days": 88,
+  "test_calendar_days": 91,
+  "days_above_capacity100": 85,
+  "missing_test_promises": 0,
+  "test_actual_max_days": 108.11225694444444,
+  "test_over60_days": 28,
+  "negative_prediction_clipping": "All candidate and final predictions are lower-bounded at zero; no upper bound",
+  "synthetic": {
+    "rows": 2000,
+    "split_counts": {
+      "train": 1207,
+      "validation": 397,
+      "test": 396
+    },
+    "features": [
+      "distance_km",
+      "weight_kg",
+      "item_units"
+    ],
+    "target": "delivery_days",
+    "ridge_alpha": 1,
+    "coefs": {
+      "intercept": 1.6005860862892574,
+      "distance_km": 0.0033974659831161867,
+      "weight_kg": -0.005833704234278215,
+      "item_units": -0.004944083011219484
+    },
+    "metrics": [
+      {
+        "split": "validation",
+        "model": "Ridge alpha 1",
+        "n": 397,
+        "mae_days": 0.7457790398298705,
+        "rmse_days": 0.9213006857385788,
+        "r2": 0.6140099506422674,
+        "bias_days": 0.08451392124186709,
+        "median_absolute_error_days": 0.6113656053923449,
+        "p90_absolute_error_days": 1.3739278890677795
+      },
+      {
+        "split": "validation",
+        "model": "Median baseline",
+        "n": 397,
+        "mae_days": 1.1824018026432843,
+        "rmse_days": 1.4854238120072423,
+        "r2": -0.0033999688699457575,
+        "bias_days": -0.08646708343045999,
+        "median_absolute_error_days": 0.9997638830419175,
+        "p90_absolute_error_days": 2.25114503855585
+      },
+      {
+        "split": "test",
+        "model": "Ridge alpha 1",
+        "n": 396,
+        "mae_days": 0.7984383160985289,
+        "rmse_days": 1.043433060035438,
+        "r2": 0.47149772327055184,
+        "bias_days": 0.00801934971791458,
+        "median_absolute_error_days": 0.6133038882843989,
+        "p90_absolute_error_days": 1.3978099390650034
+      },
+      {
+        "split": "test",
+        "model": "Median baseline",
+        "n": 396,
+        "mae_days": 1.147644196891955,
+        "rmse_days": 1.4443709024345273,
+        "r2": -0.012686775340188028,
+        "bias_days": -0.16166529019175957,
+        "median_absolute_error_days": 1.0350056615009842,
+        "p90_absolute_error_days": 2.2471937461044775
+      }
+    ],
+    "target_generation": "1 + distance_km/300 + extra_delay_days",
+    "excluded_outcomes": [
+      "extra_delay_days",
+      "transport_cost_brl",
+      "delay_cost_brl",
+      "on_time"
+    ]
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "input_hashes": {
+    "orders_audit": "fba0660daeaf802461038112056725941b6846c826955d428b530b1c007ad629",
+    "prepared_features": "41c6082baa4d2e6c0b497ff85a533dbc9a4d2c08cddbe720bb4323836f2c8f24",
+    "feature_index_and_labels": "d948e306bcfd35e8a27e8a85b656c3c28b246dcc13a7fec808ff8c60fac3a872"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://github.com/olist/work-at-olist-data",
+  "commit": "d9e49802f3e92d09ee94ab9ccc5e457f207a8959",
+  "retrieved": "2026-10-22",
+  "analysis_date": "2026-10-23",
+  "files": {
+    "orders_audit": {
+      "uncompressed_sha256": "fba0660daeaf802461038112056725941b6846c826955d428b530b1c007ad629",
+      "compressed_sha256": "16455dcb8c0697f5c168ce8aba1e1a02a903b63012eae589f9409e3dd30ef4c0",
+      "compressed_bytes": 12398259
+    },
+    "prepared_features": {
+      "uncompressed_sha256": "41c6082baa4d2e6c0b497ff85a533dbc9a4d2c08cddbe720bb4323836f2c8f24",
+      "compressed_sha256": "5b62d94e4bd023cb820fbb769b80c1dd890be86d3f0ad673d4b8ba2dd9ff1d12",
+      "compressed_bytes": 4511613
+    },
+    "feature_index_and_labels": {
+      "uncompressed_sha256": "d948e306bcfd35e8a27e8a85b656c3c28b246dcc13a7fec808ff8c60fac3a872",
+      "compressed_sha256": "3525cc3e7220e4b197bb57442bb71f1470e7b1d8d35ae44e65c5514e9ebc560f",
+      "compressed_bytes": 2308985
+    },
+    "hypothetical_shipments": {
+      "uncompressed_sha256": "3e39dc158e87779456bdbb88af05775ee86e1e4926d32825c1d15e9ec9f56eba",
+      "compressed_sha256": "b35d1aac5f0569c3be95fa11191cc07f90241b919d70b6dd3fedcf68df1ef971",
+      "compressed_bytes": 153887
+    },
+    "olist_orders_dataset": {
+      "uncompressed_sha256": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+      "compressed_sha256": "7f5bc20340f93cf543d612e3543b1096dc934a2b6d861630737ce35fd51a3b36",
+      "compressed_bytes": 6927164
+    }
+  },
+  "historical_lineage": "Four original tables -> Week 2 preprocess.py -> audit and feature matrix -> Week 4 model.py",
+  "simulation": "Separate 2000 generated rows from Week 3; seed 20261022; never pooled with historical data",
+  "results_hash_convention": "Initial summary hashes identify uncompressed CSV input bytes; packaged data/provenance.json supplies both forms. A model.py rerun identifies its actual compressed inputs."
+}

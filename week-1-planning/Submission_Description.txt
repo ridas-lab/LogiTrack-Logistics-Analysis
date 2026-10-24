@@ -1,0 +1,9 @@
+This report presents my Week 1 strategic plan for a logistics data analysis project focused on improving ecommerce delivery reliability and allocating operational resources. It defines a realistic marketplace scenario in which a logistics team must identify delivery bottlenecks and prioritize orders for early review while working within limited staff capacity.
+
+The report establishes five key performance indicators: on-time delivery rate, order cycle time, seller dispatch lead time, recorded freight per order, and delivered milestone completeness. Each indicator includes a clear definition, eligible population, and business purpose. It also explains why missing timestamps, unfinished orders, and duplicate joins must be handled carefully before interpreting performance.
+
+The research section identifies the Brazilian E-Commerce Public Dataset by Olist as a historical benchmark and connects the proposed methods to official pandas, scikit-learn, and Google OR-Tools resources. The analysis roadmap covers data acquisition, validation, cleaning, order-level aggregation, exploratory analysis, feature construction, predictive modeling, evaluation, and operational review.
+
+Python illustrations show how order-level KPI calculations can be structured, while clearly labeled pseudocode demonstrates chronological model evaluation and daily review allocation. Regression is proposed for estimating remaining delivery time, clustering for understanding order segments, and constrained optimization for allocating review effort when additional operational limits apply.
+
+The report concludes with a phased implementation schedule, risk controls, expected deliverables, and a pilot evaluation plan. Proposed targets and staffing assumptions are clearly distinguished from measured results. The overall aim is to support practical, evidence-based decisions about delivery performance, customer service, and logistics resource allocation.
